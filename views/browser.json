@@ -1,0 +1,16 @@
+{
+	"Sources": {
+		"Core": "{Core}",
+		"Extensions": "{Extensions}",
+		"Local": "{local}"
+	},
+	"Modules": {
+		"View": {
+			"Module": "Test",
+			"Source": "Local",
+			"Par": {
+				"Root": true
+			}
+		}
+	}
+}

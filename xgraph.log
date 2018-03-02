@@ -1,0 +1,699 @@
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) r
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) views
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) --local
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) --xGraph
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) Parameter <core> not defined
+Fri Mar 02 2018 15:10:42 GMT-0500 (EST) Error
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:1573:32
+    at step (/home/marcus/xGraph/bin/linux/bin/xgraph:41:23)
+    at Object.next (/home/marcus/xGraph/bin/linux/bin/xgraph:22:53)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:16:71
+    at Promise (<anonymous>)
+    at __awaiter (/home/marcus/xGraph/bin/linux/bin/xgraph:12:12)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:69:64
+    at Promise (<anonymous>)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:69:16
+    at genesis (/home/marcus/xGraph/bin/linux/bin/xgraph:1580:7)
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) r
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) views
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) --local
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) --core
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) Parameter <extensions> not defined
+Fri Mar 02 2018 15:10:50 GMT-0500 (EST) Error
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:1573:32
+    at step (/home/marcus/xGraph/bin/linux/bin/xgraph:41:23)
+    at Object.next (/home/marcus/xGraph/bin/linux/bin/xgraph:22:53)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:16:71
+    at Promise (<anonymous>)
+    at __awaiter (/home/marcus/xGraph/bin/linux/bin/xgraph:12:12)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:69:64
+    at Promise (<anonymous>)
+    at /home/marcus/xGraph/bin/linux/bin/xgraph:69:16
+    at genesis (/home/marcus/xGraph/bin/linux/bin/xgraph:1580:7)
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) r
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) views
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) --local
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) --core
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    },
+    "Bork": {
+      "Module": "Bork",
+      "Source": "local",
+      "Par": {}
+    }
+  }
+}
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) About to load xGraph.WebViewer,Bork
+Fri Mar 02 2018 15:16:57 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) r
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) views
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) --local
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) --core
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 16:03:03 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 16:03:10 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 16:03:34 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 16:03:34 GMT-0500 (EST) Apex List {
+  "Server": "44E96DC69D1740AB9727ADF4BA9AB551"
+}
+Fri Mar 02 2018 16:03:34 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:03:34 GMT-0500 (EST) compileInstance 44E96DC69D1740AB9727ADF4BA9AB551 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) r
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) views
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) --local
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) --core
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 16:05:05 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 16:05:11 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Apex List {
+  "Server": "2E459245C3304D5E9B855C4A68180A9B"
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) compileInstance 2E459245C3304D5E9B855C4A68180A9B {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 16:05:36 GMT-0500 (EST)
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) =================================================
+
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) r
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) views
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) --local
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) --core
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 16:06:09 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 16:06:14 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Apex List {
+  "Server": "EC6CFA84AA5B464AA581D238236826D1"
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) compileInstance EC6CFA84AA5B464AA581D238236826D1 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 16:06:34 GMT-0500 (EST)
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) =================================================
+
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) r
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) views
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 17:14:01 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 17:14:07 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Apex List {
+  "Server": "2067565C0B85436E9306C22753F24FC3"
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) compileInstance 2067565C0B85436E9306C22753F24FC3 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 17:14:27 GMT-0500 (EST)
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) =================================================
+
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) r
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) views
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 17:15:14 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 17:15:20 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Apex List {
+  "Server": "7B5A0B738FCE4957A784F0DA7240A9AB"
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) compileInstance 7B5A0B738FCE4957A784F0DA7240A9AB {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 17:15:40 GMT-0500 (EST)
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) =================================================
+
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) r
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) views
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 17:18:28 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 17:18:32 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:18:33 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 17:18:33 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Apex List {
+  "Server": "313098F35FC74968A5DA24977B0D43C0"
+}
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) compileInstance 313098F35FC74968A5DA24977B0D43C0 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 17:18:52 GMT-0500 (EST)
+Fri Mar 02 2018 17:18:52 GMT-0500 (EST) =================================================
+
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) Genesis Setup:
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) r
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) views
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "views/modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "browser",
+        "HTML": "@file: browser.html",
+        "browser": "@system: browser.json"
+      }
+    }
+  }
+}
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) About to remove the cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) Removed cacheDir: "/home/marcus/xMarcus/views/cache"
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) Genesis Compile Start:
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) About to load xGraph.WebViewer
+Fri Mar 02 2018 17:20:25 GMT-0500 (EST) --refreshSystems: Installing xgraph dependencies
+
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) dependencies installed correctly
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) xGraph/WebViewer returned from local file system
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) Successfully retrieved xGraph.WebViewer
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) --populate : Writing Cache to Disk
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) Writing Module xGraph.WebViewer to /home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) xGraph.WebViewer: Installing dependencies
+Fri Mar 02 2018 17:20:30 GMT-0500 (EST) {
+  "name" : "webviewer",
+  "version" : "1.0.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) xGraph.WebViewer: dependencies installed correctly
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Apex List {
+  "Server": "465024EF4E124BFAB75C99716FDD6433"
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) compileInstance 465024EF4E124BFAB75C99716FDD6433 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "browser",
+    "HTML": "@file: browser.html",
+    "browser": "@system: browser.json"
+  }
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Requesting Module:Test from Source:views/modules
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Test returned from local file system
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Successfully retrieved Test
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Genesis Compile Stop: Fri Mar 02 2018 17:20:50 GMT-0500 (EST)
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) =================================================
+

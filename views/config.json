@@ -1,0 +1,20 @@
+{
+	"Sources": {
+		"Core": "{Core}",
+		"Extensions": "{Extensions}",
+		"Local": "{local}"
+	},
+	"Modules": {
+		"Server": {
+			"Module": "xGraph.WebViewer",
+			"Source": "Core",
+			"Par": {
+				"ApexList": {},
+				"Port": 8080,
+				"Url": "browser",
+				"HTML": "@file: browser.html",
+				"browser": "@system: browser.json"
+			}
+		}
+	}
+}

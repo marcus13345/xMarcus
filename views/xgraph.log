@@ -1,0 +1,305 @@
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) r
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) views
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --local
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --core
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) ApexIndex {
+  "2E459245C3304D5E9B855C4A68180A9B": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Setup {
+  "2E459245C3304D5E9B855C4A68180A9B": "Setup"
+}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 16:05:36 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) r
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) views
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --local
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --core
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) ApexIndex {
+  "EC6CFA84AA5B464AA581D238236826D1": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Setup {
+  "EC6CFA84AA5B464AA581D238236826D1": "Setup"
+}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --WebViewer/Setup
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST)  ** Spider listening on port 8080
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus: All Setups Complete
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus/Start
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus: All Starts Complete
+Fri Mar 02 2018 16:06:34 GMT-0500 (EST) --Nexus/Run
+Fri Mar 02 2018 16:06:36 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 16:06:36 GMT-0500 (EST) [HTTP] /login
+Fri Mar 02 2018 16:06:36 GMT-0500 (EST) --Get /login
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) [HTTP] /favicon.ico
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) --Get /favicon.ico
+Fri Mar 02 2018 16:30:24 GMT-0500 (EST) /favicon.ico does not exist in Par.Static
+Fri Mar 02 2018 16:31:47 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 16:31:47 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 16:31:47 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:13:56 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:13:56 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:13:57 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) r
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) views
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) ApexIndex {
+  "2067565C0B85436E9306C22753F24FC3": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Setup {
+  "2067565C0B85436E9306C22753F24FC3": "Setup"
+}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --WebViewer/Setup
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST)  ** Spider listening on port 8080
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus: All Setups Complete
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus/Start
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus: All Starts Complete
+Fri Mar 02 2018 17:14:27 GMT-0500 (EST) --Nexus/Run
+Fri Mar 02 2018 17:14:50 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:14:50 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:14:50 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:14:50 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:14:50 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:14:51 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:14:51 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:14:51 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:14:51 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) r
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) views
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) ApexIndex {
+  "7B5A0B738FCE4957A784F0DA7240A9AB": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Setup {
+  "7B5A0B738FCE4957A784F0DA7240A9AB": "Setup"
+}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --WebViewer/Setup
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST)  ** Spider listening on port 8080
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus: All Setups Complete
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus/Start
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus: All Starts Complete
+Fri Mar 02 2018 17:15:40 GMT-0500 (EST) --Nexus/Run
+Fri Mar 02 2018 17:15:48 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:15:48 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:15:48 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:15:48 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:15:48 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:15:49 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:17:43 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:17:43 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:17:43 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:17:43 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:17:43 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:17:44 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:17:49 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:17:49 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:17:49 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:18:20 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:18:20 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:18:21 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:18:21 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:18:21 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:18:22 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:18:23 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) r
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) views
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) ApexIndex {
+  "313098F35FC74968A5DA24977B0D43C0": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Setup {
+  "313098F35FC74968A5DA24977B0D43C0": "Setup"
+}
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --WebViewer/Setup
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST)  ** Spider listening on port 8080
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus: All Setups Complete
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus/Start
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus: All Starts Complete
+Fri Mar 02 2018 17:18:53 GMT-0500 (EST) --Nexus/Run
+Fri Mar 02 2018 17:19:12 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:19:12 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:19:12 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:19:12 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:19:12 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:19:13 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:19:13 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:19:13 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:19:13 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) =================================================
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Nexus Warming Up:
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) /usr/bin/node
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) r
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --CWD
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) views
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --local
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) views/modules
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --core
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) ./../xGraph/Core/Modules
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --extensions
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) ./../xGraph/Extensions
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) cwd=views
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) local=views/modules
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) core=./../xGraph/Core/Modules
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) extensions=./../xGraph/Extensions
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --Nexus/Initiate
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) ApexIndex {
+  "465024EF4E124BFAB75C99716FDD6433": "xGraph.WebViewer"
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Setup {
+  "465024EF4E124BFAB75C99716FDD6433": "Setup"
+}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Start {}
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --Nexus/Setup
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 02 2018 17:20:50 GMT-0500 (EST) --WebViewer/Setup
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST)  ** Spider listening on port 8080
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) --Nexus: All Setups Complete
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) --Nexus/Start
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) --Nexus: All Starts Complete
+Fri Mar 02 2018 17:20:51 GMT-0500 (EST) --Nexus/Run
+Fri Mar 02 2018 17:20:53 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:20:53 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:20:53 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:20:53 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:20:53 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:20:54 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
+Fri Mar 02 2018 17:20:57 GMT-0500 (EST) [HTTP] /browser
+Fri Mar 02 2018 17:20:57 GMT-0500 (EST) --Get /browser
+Fri Mar 02 2018 17:20:57 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:20:57 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:20:57 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:20:58 GMT-0500 (EST) [HTTP] /styles.css
+Fri Mar 02 2018 17:20:58 GMT-0500 (EST) --Get /styles.css
+Fri Mar 02 2018 17:20:58 GMT-0500 (EST) /styles.css does not exist in Par.Static
+Fri Mar 02 2018 17:20:59 GMT-0500 (EST) The page you're looking for (undefined) can't be found.
