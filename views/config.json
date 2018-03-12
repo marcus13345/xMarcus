@@ -11,9 +11,9 @@
 			"Par": {
 				"ApexList": {},
 				"Port": 8080,
-				"Url": "browser",
+				"Url": "",
 				"HTML": "@file: browser.html",
-				"browser": "@system: browser.json"
+				"": "@system: browser.json"
 			}
 		}
 	}
