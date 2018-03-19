@@ -1,20 +1,49 @@
 <div id="root">
 	<div id="top">
 		<h1>xEvolve</h1>
-		<button>File</button>
-		<button>Edit</button>
-		<button>View</button>
-		<button>Create</button>
-		<button>Help</button>
+		<div class="menubarButton">
+			<~x render.button( 'File', 'File') ~>
+			<div class="menubarDropdown">
+				<~x render.button('Import', {command: 'Import', type: 'anchor'}) ~>
+				<~x render.button('Export', {command: 'Export', type: 'anchor'}) ~>
+				<~x render.button('Logout', {command: 'Logout', type: 'anchor'}) ~>
+			</div>
+		</div>
+		<div class="menubarButton">
+			<~x render.button('Edit') ~>
+			<div class="menubarDropdown">
+				<~x render.button('Import', {command: 'Import', type: 'anchor'}) ~>
+				<~x render.button('Export', {command: 'Export', type: 'anchor'}) ~>
+				<~x render.button('Logout', {command: 'Logout', type: 'anchor'}) ~>
+			</div>
+		</div>
+		<div class="menubarButton">
+			<~x render.button('View') ~>
+			<div class="menubarDropdown">
+				<~x render.button('3D View', {command: '3DView', type: 'anchor'}) ~>
+				<~x render.button('2D View', {command: '2DView', type: 'anchor'}) ~>
+				<~x render.button('Text View', {command: 'TextView', type: 'anchor'}) ~>
+			</div>
+		</div>
+		<div class="menubarButton">
+			<~x render.button('Create') ~>
+			<div class="menubarDropdown">
+				<~x render.button('Import', {command: 'Import', type: 'anchor'}) ~>
+				<~x render.button('Export', {command: 'Export', type: 'anchor'}) ~>
+				<~x render.button('Logout', {command: 'Logout', type: 'anchor'}) ~>
+			</div>
+		</div>
+		<div class="menubarButton">
+			<~x render.button('Help') ~>
+			<div class="menubarDropdown">
+				<~x render.button('Import', {command: 'Import', type: 'anchor'}) ~>
+				<~x render.button('Export', {command: 'Export', type: 'anchor'}) ~>
+				<~x render.button('Logout', {command: 'Logout', type: 'anchor'}) ~>
+			</div>
+		</div>
 	</div>
 	<div id="viewport">
-		<~x for(let i=0 ; i < 10; i ++) { ~>
-			<div class="card">
-				Example Card
-				<br>
-				<~x render.button('Button', '') ~>
-			</div>
-		<~x } ~>
+		
 	</div>
 	<div id="bottom"></div>
 </div>

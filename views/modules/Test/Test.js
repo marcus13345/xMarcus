@@ -1,7 +1,7 @@
 (function Test() {
 	class Test {
-		Submit(com, fun) {
-			alert(`you said ${this.Vlt.input.val()}`)
+		async Start(com, fun) {
+			com = await this.asuper(com);
 		}
 	}
 

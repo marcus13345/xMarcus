@@ -2286,3 +2286,2169 @@ Wed Mar 14 2018 12:21:40 GMT-0400 (EDT) /styles.css does not exist in Par.Static
 Wed Mar 14 2018 12:21:40 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
 Wed Mar 14 2018 12:21:41 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
 Wed Mar 14 2018 12:21:41 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) ApexIndex {
+  "4D6301CC5B8B4DF0A9F39DFF34C0A6C3": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Setup {
+  "4D6301CC5B8B4DF0A9F39DFF34C0A6C3": "Setup"
+}
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:30:12 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:30:16 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:30:17 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) ApexIndex {
+  "58D210419F6A4079976DC02D90F57BB6": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Setup {
+  "58D210419F6A4079976DC02D90F57BB6": "Setup"
+}
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:32:53 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:32:54 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:32:55 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) ApexIndex {
+  "FC204B03189A4392B44CBD40D17DC8DA": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Setup {
+  "FC204B03189A4392B44CBD40D17DC8DA": "Setup"
+}
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:33:47 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:33:50 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:33:50 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:33:50 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:33:50 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:33:50 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:33:51 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:33:51 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:33:51 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) ApexIndex {
+  "004B19C0CB4A425EBA301A5001C45C5F": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Setup {
+  "004B19C0CB4A425EBA301A5001C45C5F": "Setup"
+}
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:36:33 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:49:51 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:49:51 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:49:51 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:49:51 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:49:51 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:49:52 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:49:52 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:49:52 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) ApexIndex {
+  "7C81D22D82D44479A8A316D373009785": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Setup {
+  "7C81D22D82D44479A8A316D373009785": "Setup"
+}
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:53:22 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:53:25 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:53:25 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:53:25 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:53:25 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:53:25 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:53:26 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:54:11 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:54:11 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:54:11 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:54:11 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:54:11 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:54:12 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:54:12 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:54:12 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) r
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) views
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --core
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --local
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) ApexIndex {
+  "99375CB585DC45AF921A0AE9CBEEDA7D": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Setup {
+  "99375CB585DC45AF921A0AE9CBEEDA7D": "Setup"
+}
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 11:58:51 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 11:58:55 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) r
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) views
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --core
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --local
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) ApexIndex {
+  "61C44A55B83D407E8FABB27DB0316621": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) Setup {
+  "61C44A55B83D407E8FABB27DB0316621": "Setup"
+}
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 12:04:59 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:05:00 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:05:01 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) r
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) views
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --core
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --local
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) ApexIndex {
+  "14B995F84EF4441C9C928DB507ED6F50": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Setup {
+  "14B995F84EF4441C9C928DB507ED6F50": "Setup"
+}
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:21:37 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:21:38 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:21:38 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:21:38 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:22:21 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:22:21 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:22:21 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:22:21 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:22:21 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:22:22 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:22:22 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:22:22 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) r
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) views
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --core
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --local
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) ApexIndex {
+  "5859F23087384CB68890BB604DD633C3": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Setup {
+  "5859F23087384CB68890BB604DD633C3": "Setup"
+}
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 12:49:34 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 12:55:28 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:55:28 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:55:28 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:55:28 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:55:28 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:55:29 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:55:36 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) r
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) views
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --core
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --local
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) ApexIndex {
+  "2F007C0F2105471CAEBFB7AA9DB0AE1E": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Setup {
+  "2F007C0F2105471CAEBFB7AA9DB0AE1E": "Setup"
+}
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 12:56:53 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:56:58 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 12:58:10 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 12:58:10 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 12:58:10 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 12:58:10 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 12:58:10 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 12:58:11 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 12:58:11 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 12:58:11 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) ApexIndex {
+  "5489E22D9C68419983E2CD862FAFE8CE": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Setup {
+  "5489E22D9C68419983E2CD862FAFE8CE": "Setup"
+}
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:06:49 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:06:51 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:06:51 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:06:51 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:06:51 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:06:51 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:06:52 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:06:52 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:06:52 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) ApexIndex {
+  "66820B32BB5F42998F6E1132F8C2B9AE": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Setup {
+  "66820B32BB5F42998F6E1132F8C2B9AE": "Setup"
+}
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:12:15 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:12:16 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) ApexIndex {
+  "3DB44BCA75264F9EAAFC8267E781D3B5": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Setup {
+  "3DB44BCA75264F9EAAFC8267E781D3B5": "Setup"
+}
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:13:30 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:13:35 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:13:35 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:13:35 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:13:35 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:13:35 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:13:36 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:13:36 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:13:36 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:16:29 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:16:30 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:16:30 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) ApexIndex {
+  "3FAA83A752BF4BD4AF51006A3BAB8420": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Setup {
+  "3FAA83A752BF4BD4AF51006A3BAB8420": "Setup"
+}
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:28:52 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:28:56 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:28:57 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:28:57 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:28:57 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:32:12 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:32:13 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:13 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:13 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) ApexIndex {
+  "A9B1406EA3504B58A056ADE93B98D0BA": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Setup {
+  "A9B1406EA3504B58A056ADE93B98D0BA": "Setup"
+}
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:32:46 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:32:51 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) ApexIndex {
+  "4145106DA1E245CA8B7FEAE03ADE415A": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Setup {
+  "4145106DA1E245CA8B7FEAE03ADE415A": "Setup"
+}
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:35:04 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:35:06 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:35:06 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:35:06 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:35:06 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:35:06 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:35:07 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:35:07 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:35:07 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:43:27 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:43:27 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:43:27 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:43:27 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:43:27 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:43:28 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:43:28 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:43:28 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) ApexIndex {
+  "A61708A1CED04E8FB082B726CE2218A0": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Setup {
+  "A61708A1CED04E8FB082B726CE2218A0": "Setup"
+}
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:50:47 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:50:50 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:50:50 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:50:50 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:50:50 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:50:50 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:50:51 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:50:51 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:50:51 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) ApexIndex {
+  "532357695FD84F07A5218D71E6D29907": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Setup {
+  "532357695FD84F07A5218D71E6D29907": "Setup"
+}
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:53:09 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:53:14 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:53:15 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) ApexIndex {
+  "D61B345A26644AE9B8E61B3D5BEA9823": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Setup {
+  "D61B345A26644AE9B8E61B3D5BEA9823": "Setup"
+}
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:55:33 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:55:36 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:55:36 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:55:36 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:55:36 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:55:36 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:55:37 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:55:37 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:55:37 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) r
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) views
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --core
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --local
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) ApexIndex {
+  "5BF614241ED648DB80BE588FFF7652E6": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Setup {
+  "5BF614241ED648DB80BE588FFF7652E6": "Setup"
+}
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 13:56:39 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:56:43 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 13:57:27 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) r
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) views
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --core
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --local
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) ApexIndex {
+  "0173865FFA1B44D1971675BEBD45808D": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Setup {
+  "0173865FFA1B44D1971675BEBD45808D": "Setup"
+}
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 14:00:04 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:00:08 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:00:09 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) r
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) views
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --core
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --local
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) ApexIndex {
+  "9883196786F3481194BA78FEF1616137": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Setup {
+  "9883196786F3481194BA78FEF1616137": "Setup"
+}
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 14:01:07 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 14:01:48 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:01:48 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:01:48 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:01:48 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:01:48 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:02:10 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:02:11 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:36:30 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:36:31 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:36:31 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:36:31 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) r
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) views
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --core
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --local
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) ApexIndex {
+  "842B99FA4A654A95BA7FD303979CD603": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Setup {
+  "842B99FA4A654A95BA7FD303979CD603": "Setup"
+}
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 14:56:06 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:10 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:56:54 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:57:10 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) r
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) views
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --core
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --local
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) ApexIndex {
+  "65843E3A38D14A0197FE5C60A2803534": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Setup {
+  "65843E3A38D14A0197FE5C60A2803534": "Setup"
+}
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 14:58:28 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 14:59:10 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) r
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) views
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --core
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --local
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) ApexIndex {
+  "CB90B2202F8D4AE7BA4D5EB8C04C7C52": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Setup {
+  "CB90B2202F8D4AE7BA4D5EB8C04C7C52": "Setup"
+}
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 15:17:48 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) r
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) views
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --core
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --local
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) ApexIndex {
+  "78F0CA6102E444F5BAC6147F0A455150": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Setup {
+  "78F0CA6102E444F5BAC6147F0A455150": "Setup"
+}
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 15:26:16 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 15:26:17 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) =================================================
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Nexus Warming Up:
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) /usr/bin/node
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) r
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --CWD
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) views
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --core
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --local
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) ./views/modules
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --extensions
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) ./..xGraph/Extensions
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) cwd=views
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) local=./views/modules
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus/Initiate
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) ApexIndex {
+  "D8C221115B5E4A26A5F38F24803306E5": "xGraph.WebViewer"
+}
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Setup {
+  "D8C221115B5E4A26A5F38F24803306E5": "Setup"
+}
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Start {}
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus/Setup
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --WebViewer/Setup
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT)  ** Spider listening on port 8080
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus: All Setups Complete
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus/Start
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus: All Starts Complete
+Thu Mar 15 2018 15:27:34 GMT-0400 (EDT) --Nexus/Run
+Thu Mar 15 2018 15:27:45 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 15:27:45 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 15:27:45 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:27:45 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:27:45 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:27:46 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 15:27:46 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 15:27:46 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Thu Mar 15 2018 15:36:13 GMT-0400 (EDT) [HTTP] /
+Thu Mar 15 2018 15:36:13 GMT-0400 (EDT) --Get /
+Thu Mar 15 2018 15:36:13 GMT-0400 (EDT) [HTTP] /styles.css
+Thu Mar 15 2018 15:36:13 GMT-0400 (EDT) --Get /styles.css
+Thu Mar 15 2018 15:36:13 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Thu Mar 15 2018 15:36:14 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Thu Mar 15 2018 15:36:14 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Thu Mar 15 2018 15:36:14 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) r
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) views
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --core
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --local
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) ApexIndex {
+  "84BED16312D246E78242E7AAAC59508B": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Setup {
+  "84BED16312D246E78242E7AAAC59508B": "Setup"
+}
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 12:26:28 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 12:26:30 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 12:26:30 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 12:26:31 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) r
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) views
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --core
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --local
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) ApexIndex {
+  "17B67D5E3D5348A9A896D1C331296E42": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Setup {
+  "17B67D5E3D5348A9A896D1C331296E42": "Setup"
+}
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 12:47:31 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 12:47:33 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 12:47:34 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 12:47:34 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 12:47:34 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) [HTTP] /favicon.ico
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) --Get /favicon.ico
+Fri Mar 16 2018 14:33:03 GMT-0400 (EDT) /favicon.ico does not exist in Par.Static
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 14:33:09 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 14:35:59 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 14:38:13 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 14:40:08 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 14:58:02 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) r
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) views
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --core
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --local
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) ApexIndex {
+  "C23BF994A0E145C9BD1D0933C3A0516D": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) Setup {
+  "C23BF994A0E145C9BD1D0933C3A0516D": "Setup"
+}
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 16:45:40 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 16:45:41 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 16:45:42 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 16:45:42 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 16:45:42 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) r
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) views
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --core
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --local
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) ApexIndex {
+  "314818B821DB47399A19B951A063CBB7": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Setup {
+  "314818B821DB47399A19B951A063CBB7": "Setup"
+}
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 17:22:41 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 17:22:44 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 17:22:44 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 17:22:44 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 17:22:44 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 17:22:44 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 17:22:45 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 17:22:45 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 17:22:45 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) r
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) views
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --core
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --local
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) ApexIndex {
+  "15DEFD9840D642B7859FF8E99B2E4A9E": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Setup {
+  "15DEFD9840D642B7859FF8E99B2E4A9E": "Setup"
+}
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 17:28:37 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 17:28:41 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 17:28:42 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 17:28:42 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) =================================================
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Nexus Warming Up:
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) /usr/bin/node
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) r
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --CWD
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) views
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --core
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --local
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) ./views/modules
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --extensions
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) ./..xGraph/Extensions
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) cwd=views
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) local=./views/modules
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus/Initiate
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) ApexIndex {
+  "F7AE8C067964402A8A587E10BDDCC398": "xGraph.WebViewer"
+}
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Setup {
+  "F7AE8C067964402A8A587E10BDDCC398": "Setup"
+}
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Start {}
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus/Setup
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --WebViewer/Setup
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT)  ** Spider listening on port 8080
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus: All Setups Complete
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus/Start
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus: All Starts Complete
+Fri Mar 16 2018 17:33:44 GMT-0400 (EDT) --Nexus/Run
+Fri Mar 16 2018 17:33:49 GMT-0400 (EDT) [HTTP] /
+Fri Mar 16 2018 17:33:49 GMT-0400 (EDT) --Get /
+Fri Mar 16 2018 17:33:49 GMT-0400 (EDT) [HTTP] /styles.css
+Fri Mar 16 2018 17:33:49 GMT-0400 (EDT) --Get /styles.css
+Fri Mar 16 2018 17:33:49 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Fri Mar 16 2018 17:33:50 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Fri Mar 16 2018 17:33:50 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Fri Mar 16 2018 17:33:50 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:36:15 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) r
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) views
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --core
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --local
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) ApexIndex {
+  "99BCE570A510413997DC72F9C1CAA569": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Setup {
+  "99BCE570A510413997DC72F9C1CAA569": "Setup"
+}
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 10:37:03 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:37:07 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:08 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:08 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:31 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:37:31 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:37:31 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:37:31 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:37:31 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:37:32 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:32 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:37:32 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) r
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) views
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --core
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --local
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) ApexIndex {
+  "0B67B534835B447CBD4EE8D2BE4D7AFE": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Setup {
+  "0B67B534835B447CBD4EE8D2BE4D7AFE": "Setup"
+}
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 10:38:29 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 10:38:33 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:38:33 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:38:33 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:38:33 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:38:33 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:38:34 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:38:34 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:38:34 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) r
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) views
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --core
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --local
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) ApexIndex {
+  "7EC46E0516A942C6B4B8EBFCEB9EB709": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Setup {
+  "7EC46E0516A942C6B4B8EBFCEB9EB709": "Setup"
+}
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 10:41:48 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 10:42:05 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:42:05 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:42:05 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:42:05 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:42:05 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:42:06 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:42:06 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:42:06 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) r
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) views
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --core
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --local
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) ApexIndex {
+  "C33642502B624FE3BD0D6B14F32C1086": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Setup {
+  "C33642502B624FE3BD0D6B14F32C1086": "Setup"
+}
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 10:44:00 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 10:44:01 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 10:44:01 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 10:44:01 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 10:44:01 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 10:44:01 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 10:44:02 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 10:44:02 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 10:44:02 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:02:39 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:02:40 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 11:02:40 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 11:02:40 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:26:54 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:26:55 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 11:26:55 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 11:26:55 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) r
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) views
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --core
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --local
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) ApexIndex {
+  "E72ECF2E2A1840E88798853FACF2BF77": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Setup {
+  "E72ECF2E2A1840E88798853FACF2BF77": "Setup"
+}
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 11:27:48 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 11:27:51 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 11:27:51 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 11:27:52 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) r
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) views
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --core
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --local
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) ApexIndex {
+  "74A161A2FF2943E8B4223DE8D7B0AC63": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Setup {
+  "74A161A2FF2943E8B4223DE8D7B0AC63": "Setup"
+}
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 11:50:16 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 11:50:19 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 11:50:20 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 11:50:20 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 12:07:15 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 12:07:16 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 12:07:16 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 12:07:16 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) r
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) views
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --core
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --local
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) ApexIndex {
+  "CEE6392A83A246869E670531A545CF77": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Setup {
+  "CEE6392A83A246869E670531A545CF77": "Setup"
+}
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 12:09:29 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 12:09:31 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) r
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) views
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --core
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --local
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) ApexIndex {
+  "9D8F1D340AE2402EB794E0F3468F359B": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Setup {
+  "9D8F1D340AE2402EB794E0F3468F359B": "Setup"
+}
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 12:10:25 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 12:10:29 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) =================================================
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Nexus Warming Up:
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) /usr/bin/node
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/lib/Nexus/Nexus.js
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) /home/marcus/xGraph/bin/linux/bin/xgraph
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) r
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --CWD
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) views
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --core
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) ./../xGraph/Core/Modules
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --local
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) ./views/modules
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --extensions
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) ./..xGraph/Extensions
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) cwd=views
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) core=./../xGraph/Core/Modules
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) local=./views/modules
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) extensions=./..xGraph/Extensions
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) cache=/home/marcus/xMarcus/views/cache
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) CWD set to /home/marcus/xMarcus/views/views
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus/Initiate
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) ApexIndex {
+  "EF3ECA442C8949A3976387816F8387EA": "xGraph.WebViewer"
+}
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Setup {
+  "EF3ECA442C8949A3976387816F8387EA": "Setup"
+}
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Start {}
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus/Setup
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Spinning up entity xGraph.WebViewer-WebViewer
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --WebViewer/Setup
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT)  ** Spider listening on port 8080
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Entity - Getting file scripts.json from xGraph.WebViewer
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Entity - Getting file Nxs.js from xGraph.WebViewer
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus: All Setups Complete
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus/Start
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus: All Starts Complete
+Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) --Nexus/Run
+Mon Mar 19 2018 12:14:35 GMT-0400 (EDT) [HTTP] /
+Mon Mar 19 2018 12:14:35 GMT-0400 (EDT) --Get /
+Mon Mar 19 2018 12:14:35 GMT-0400 (EDT) [HTTP] /styles.css
+Mon Mar 19 2018 12:14:35 GMT-0400 (EDT) --Get /styles.css
+Mon Mar 19 2018 12:14:35 GMT-0400 (EDT) /styles.css does not exist in Par.Static
+Mon Mar 19 2018 12:14:36 GMT-0400 (EDT) Entity - Getting file jszip.min_3.1.3.js from xGraph.WebViewer
+Mon Mar 19 2018 12:14:36 GMT-0400 (EDT) Entity - Getting file jquery.min.js from xGraph.WebViewer
+Mon Mar 19 2018 12:14:36 GMT-0400 (EDT) Entity - Getting file Viewify.js from xGraph.WebViewer
