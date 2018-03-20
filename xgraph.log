@@ -7963,3 +7963,83 @@ Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Successfully retrieved Test
 Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) Genesis Compile Stop: Mon Mar 19 2018 12:14:32 GMT-0400 (EDT)
 Mon Mar 19 2018 12:14:32 GMT-0400 (EDT) =================================================
 
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) =================================================
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) Genesis Setup:
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) C:\Users\marcu\xgraph\bin\windows\bin\xgraph.exe
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) --CWD
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) r
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) --Core
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) ./../xGraph/Core/Modules
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) ./../xGraph/Extensions
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) views
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) --extensions
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) --local
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) ./modules
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) CWD set to C:\Users\marcu\xMarcus\views
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) {
+  "Sources": {
+    "Core": "./../xGraph/Core/Modules",
+    "Extensions": "./../xGraph/Extensions",
+    "Local": "./modules"
+  },
+  "Modules": {
+    "Server": {
+      "Module": "xGraph.WebViewer",
+      "Source": "Core",
+      "Par": {
+        "ApexList": {},
+        "Port": 8080,
+        "Url": "",
+        "HTML": "@file: browser.html",
+        "": "@system: browser.json"
+      }
+    }
+  }
+}
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) =================================================
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) Genesis Compile Start:
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) About to load xGraph.WebViewer
+Tue Mar 20 2018 13:21:58 GMT-0400 (Eastern Daylight Time) --refreshSystems: Installing xgraph dependencies
+
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) Requesting xGraph.WebViewer from ./../xGraph/Core/Modules
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) dependencies installed correctly
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) xGraph\WebViewer returned from local file system
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) Writing Module xGraph.WebViewer to C:\Users\marcu\xMarcus\views\cache
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) --populate : Writing Cache to Disk
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) Successfully retrieved xGraph.WebViewer
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) xGraph.WebViewer: Installing dependencies
+Tue Mar 20 2018 13:22:03 GMT-0400 (Eastern Daylight Time) {
+  "name" : "webviewer",
+  "version" : "1.1.0",
+  "author": "Introspective Systems, LLC.",
+  "license": "ISC",
+  "dependencies" : {
+    "socket.io" : "2.0.4"
+  }
+}
+Tue Mar 20 2018 13:22:09 GMT-0400 (Eastern Daylight Time) xGraph.WebViewer: dependencies installed correctly
+Tue Mar 20 2018 13:22:09 GMT-0400 (Eastern Daylight Time) Apex List {
+  "Server": "90BBF067EC5C4EB9AE2CDDDF558FA117"
+}
+Tue Mar 20 2018 13:22:09 GMT-0400 (Eastern Daylight Time) Server {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "",
+    "HTML": "@file: browser.html",
+    "": "@system: browser.json"
+  }
+}
+Tue Mar 20 2018 13:22:09 GMT-0400 (Eastern Daylight Time) compileInstance 90BBF067EC5C4EB9AE2CDDDF558FA117 {
+  "Module": "xGraph.WebViewer",
+  "Source": "Core",
+  "Par": {
+    "ApexList": {},
+    "Port": 8080,
+    "Url": "",
+    "HTML": "@file: browser.html",
+    "": "@system: browser.json"
+  }
+}
