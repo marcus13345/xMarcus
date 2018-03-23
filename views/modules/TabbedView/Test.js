@@ -17,4 +17,4 @@
 	}
 
 	return Viewify(Test, "4.0");
-})();
+})()

@@ -3,14 +3,9 @@
 <meta charset="utf-8" />
 
 <head>
-	<script src="https://apis.google.com/js/api.js"></script>
 	<title>WebViewer</title>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="manifest" href="/manifest.json">
-	<link href="styles.css" type="text/css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:100,300,400|Indie+Flower:400" rel="stylesheet">
-	<script src="https://apis.google.com/js/platform.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
 		SockIO = io();
@@ -50,24 +45,24 @@
 	</script>
 </head>
 
-<body id="Body" style="height:100vh;margin:0px" oncontextmenu="return false;">
+<body id="Body" style="height:100vh;margin:0px">
 
 	<!-- This will be shown on disconnect -->
-	<div style="
-			position: fixed;
-			display: none;
-			top: -6px;
-			left: -8px;
-			z-index: 100000;
-			padding: 16px;
-			padding-bottom: 12px;
-			padding-right: 20px;
-			border: 1px solid black;
-			background-color: white;
-			border-radius: 5px;
-	" class="showOnDisconnect">Server Connection Lost
-		<br>Trying to reconnect . . .
-	</div>
+	<div class="showOnDisconnect" style="
+		position: fixed;
+		top: calc(50vh - 100px);
+		left: calc(50vw - 100px);
+		color: red;
+		z-index: 1;
+		width: 200px;
+		height: 200px;
+		font-family: sans-serif;
+		border-radius: 50%;
+		border: 5px solid red;
+		line-height: 200px;
+		text-align: center;
+		display:none;
+">DISCONNECTED</div>
 
 	<!-- This will be shown if the Server responds with com.Error == 404 -->
 	<div class="showOn404" style="display:none;">

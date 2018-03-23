@@ -1,0 +1,7 @@
+{
+	"Apex": {
+		"Entity": "BrokerExplorer.js",
+		"$Setup": "Setup",
+		"$Start": "Start"
+	}
+}

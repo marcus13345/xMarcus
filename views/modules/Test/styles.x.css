@@ -3,13 +3,35 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	user-select: none;
+
+	--evo-blue: #3F6CD3;
+	--introspective-green: #67BA46;
+	--accent: var(--introspective-green);
+	
+	--text: black;
+	--subtext: rgba(0, 0, 0, 0.7);
+	--view-color: white;
+	--navbar-color: #DBDBDB;
+}
+
+#root[dark] {
+	--text: white;
+	--subtext: rgba(255, 255, 255, 0.7);
+	--view-color: #111;
+	--navbar-color: #1f1f1f;
 }
 
 #top {
 	height: 46px;
-	border-top: 6px solid #67BA46;
-	background-color: #DBDBDB;
-	box-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
+	box-sizing: unset;
+	border-top: 6px solid var(--accent);
+	background-color: var(--navbar-color);
+	color: var(--text);
+}
+
+#root[running] #top{
+	border-top-color: var(--evo-blue);
 }
 
 #top h1 {
@@ -20,21 +42,28 @@
 	font-weight: 100;
 	display: inline;
 	position: relative;
-	top: 4px;
-	padding-right: 16px
+	top: 2px;
+	padding-right: 16px;
 }
 
-#top button {
+#viewport {
+	background: var(--view-color);
+}
+
+#top .menubarButton {
 	height: 46px;
 	display: inline;
 	background-color: inherit;
 	border: none;
 	outline: none;
 	min-width: 64px;
+	padding-top: 4px;
+	box-sizing: border-box;
+	font-size: 13px;
 }
 
 #top button:hover, #top button.selected {
-	background-color: #67BA46;
+	background-color: var(--accent);
 	cursor: pointer;
 }
 
@@ -43,25 +72,26 @@
 }
 
 #bottom {
-	height: 40px;
-	background-color: #DCDCDC;
+	height: 48px;
+	background-color: var(--navbar-color);
+	padding: 8px;
+	box-sizing: border-box;
 }
 
 .card {
-	background-color: white;
+	background-color: var(--view-color);
 	border-radius: 3px;
-	box-shadow: 0px 2px 5px rgba(0,0,0,.3);
 	width: 200px;
 	padding: 16px;
 	margin: 16px;
 }
 
-.menubarButton {
+.menubarItemContainer {
 	position: relative;
 	display: inline-block;
 }
 
-.menubarButton:hover > .menubarDropdown {
+.menubarItemContainer:hover > .menubarDropdown {
 	display: inline;
 }
 
@@ -70,9 +100,9 @@
 	padding: 16px 0px;
 	width: 250px;
 	position: absolute;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	border-radius: 5px;
-	background-color: white;
+	background-color: var(--view-color);
+	z-index: 1;
 }
 
 .menubarDropdown > [button] {
@@ -81,9 +111,54 @@
 	display: block;
 	line-height: 32px;
 	padding: 0px 24px;
+	font-size: 13px;
+	color: var(--subtext);
 }
 
 .menubarDropdown > [button]:hover {
-	background-color: #f0f0f0;
+	background-color: var(--navbar-color);
 }
 
+#bottom {
+	color: var(--subtext);
+}
+
+#bottom > i.material-icons {
+	padding: 4px;
+	cursor: pointer;
+}
+
+#bottom > span {
+	vertical-align: top;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding: 4px;
+	padding-top: 6px;
+}
+
+#bottom > div.switch {
+	vertical-align: top;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding: 4px;
+}
+
+div.switch label {
+	color: var(--subtext);
+}
+
+#root[running] #playButton {
+	display: none;
+}
+#root[running] #stopButton {
+	display: initial;
+}
+#stopButton {
+	display: none;
+}
+
+.lever {
+	top: -2px;
+}

@@ -5,11 +5,26 @@
 		"Local": "{local}"
 	},
 	"Modules": {
-		"View": {
+		"Evo": {
 			"Module": "Test",
 			"Source": "Local",
 			"Par": {
-				"Root": true
+				"Root": true,
+				"Children": "$Explorer"
+			}
+		},
+		"Explorer": {
+			"Module": "BrokerExplorer",
+			"Source": "Local",
+			"Par": {
+				"Broker": "$LocalModules"
+			}
+		},
+		"LocalModules": {
+			"Module": "xGraph.WebProxy",
+			"Source": "Core",
+			"Par": {
+				"Link": "$LocalModules"
 			}
 		}
 	}

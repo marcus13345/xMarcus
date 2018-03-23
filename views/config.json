@@ -9,11 +9,20 @@
 			"Module": "xGraph.WebViewer",
 			"Source": "Core",
 			"Par": {
-				"ApexList": {},
+				"ApexList": {
+					"LocalModules": "$LocalModules"
+				},
 				"Port": 8080,
 				"Url": "",
 				"HTML": "@file: browser.html",
 				"": "@system: browser.json"
+			}
+		},
+		"LocalModules": {
+			"Module": "RepositoryAdapter",
+			"Source": "Local",
+			"Par": {
+				"BrokerPath": "./modules"
 			}
 		}
 	}
