@@ -2,8 +2,9 @@
 (function BrokerExplorer() {
 	class BrokerExplorer {
 		DOMLoaded(com, fun) {
-			debugger;
-			
+			// debugger;
+			this.Vlt.div.find('.collapsible').collapsible();
+
 		}
 	}
 	// debugger;
