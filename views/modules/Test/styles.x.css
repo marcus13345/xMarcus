@@ -16,10 +16,15 @@
 }
 
 #root[dark] {
-	--text: white;
-	--subtext: rgba(255, 255, 255, 0.7);
-	--view-color: #111;
-	--navbar-color: #1f1f1f;
+	--text: #D5D5D5;
+	--subtext: #919191;
+	--view-color: #242424;
+	--navbar-color: #2A2A2A;
+	
+}
+
+#root[dark] > #bottom {
+	border-top: 1px solid #5C5C5C;
 }
 
 #top {
@@ -28,6 +33,7 @@
 	border-top: 6px solid var(--accent);
 	background-color: var(--navbar-color);
 	color: var(--text);
+	z-index: 1;
 }
 
 #root[running] #top{
@@ -101,7 +107,7 @@
 	width: 250px;
 	position: absolute;
 	border-radius: 5px;
-	background-color: var(--view-color);
+	background-color: var(--navbar-color);
 	z-index: 1;
 }
 
@@ -161,4 +167,16 @@ div.switch label {
 
 .lever {
 	top: -2px;
+}
+
+
+/* change the colors on the switch */
+.switch label input[type=checkbox]:checked+.lever {
+	background-color: var(--accent);
+}
+
+
+/* change the colors on the switch */
+.switch label input[type=checkbox]:checked+.lever:after {
+	background-color: white;
 }

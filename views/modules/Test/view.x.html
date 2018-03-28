@@ -3,7 +3,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
 
 	<div id="top" class="z-depth-1">
@@ -62,5 +62,15 @@
 
 		<i class="material-icons green-text" id="playButton" xgraph-hook xgraph-event-click="RunSystem">play_arrow</i>
 		<i class="material-icons red-text" id="stopButton" xgraph-hook xgraph-event-click="StopSystem">stop</i>
+
+		<div style="float: right">
+			<div class="switch" style="padding: 7px;">
+				<label>
+					Dark Mode
+					<input type="checkbox" checked="true" xgraph-hook xgraph-event-change="DarkMode">
+					<span class="lever"></span>
+				</label>
+			</div>
+		</div>
 	</div>
 </div>

@@ -45,23 +45,24 @@
 	</script>
 </head>
 
-<body id="Body" style="height:100vh;margin:0px">
+<body id="Body" style="height:100vh;margin:0px;font-size:13px;">
 
 	<!-- This will be shown on disconnect -->
 	<div class="showOnDisconnect" style="
-		position: fixed;
-		top: calc(50vh - 100px);
-		left: calc(50vw - 100px);
-		color: red;
-		z-index: 1;
-		width: 200px;
-		height: 200px;
-		font-family: sans-serif;
-		border-radius: 50%;
-		border: 5px solid red;
-		line-height: 200px;
-		text-align: center;
-		display:none;
+    position: fixed;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
+    color: #ef9595;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    border-radius: 50%;
+    border: 5px solid rgba(251, 36, 36, 0.41);
+    line-height: 200px;
+    text-align: center;
+    display: none;
+    background-color: rgba(255, 0, 0, .2);
 ">DISCONNECTED</div>
 
 	<!-- This will be shown if the Server responds with com.Error == 404 -->

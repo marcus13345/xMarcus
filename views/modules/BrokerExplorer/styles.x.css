@@ -7,3 +7,31 @@ i {
 	color: var(--text);
 }
 
+.collapsible-header {
+	background-color: var(--view-color);
+	border: none;
+	color: var(--text);
+}
+
+.collapsible-body {
+	border: none;
+	color: var(--subtext);
+	padding: 0px;
+}
+
+.collapsible {
+	border: none;
+	margin: 0px;
+}
+
+li.file {
+	line-height: 44px;
+	padding: 0px 2rem;
+	cursor: pointer;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+	/* The alpha value allows the text and background color
+	of the button to still show through. */
+	background-color: rgba(121, 85, 72, 0.65);
+}

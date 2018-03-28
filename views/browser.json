@@ -24,7 +24,7 @@
 			"Module": "xGraph.WebProxy",
 			"Source": "Core",
 			"Par": {
-				"Link": "$LocalModules"
+				"Link": "LocalModules"
 			}
 		}
 	}

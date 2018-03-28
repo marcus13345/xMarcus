@@ -34,7 +34,7 @@
 		}
 
 		GetModules(com, fun) {
-			com.Module = Object.keys(this.Vlt.cache);
+			com.Modules = Object.keys(this.Vlt.cache);
 			fun(null, com);
 		}
 
