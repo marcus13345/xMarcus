@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	user-select: none;
+	min-width:540px;
 
 	--evo-blue: #3F6CD3;
 	--introspective-green: #67BA46;
@@ -21,6 +22,19 @@
 	--view-color: #242424;
 	--navbar-color: #2A2A2A;
 	
+}
+
+#top > .progress {
+	position: absolute;
+	margin:0px;
+	height: 6px;
+	top: 0px;
+}
+
+#root:not([loading]) #top > .progress {
+	display: none;
+	height:0px;
+	transition: height 300ms;
 }
 
 #root[dark] > #bottom {
@@ -75,6 +89,7 @@
 
 #viewport {
 	flex-grow: 1;
+	height:100%;
 }
 
 #bottom {

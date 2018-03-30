@@ -15,7 +15,8 @@
 				"Port": 8080,
 				"Url": "",
 				"HTML": "@file: browser.html",
-				"": "@system: browser.json"
+				"": "@system: browser.json",
+				"Static": "@directory: static"
 			}
 		},
 		"LocalModules": {

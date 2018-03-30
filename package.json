@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "views": "xgraph r --CWD views --Core ./../xGraph/Core/Modules --Extensions ./../xGraph/Extension --local ./views/modules"
   },
   "author": "",
   "license": "ISC",

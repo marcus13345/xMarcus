@@ -24,8 +24,12 @@
 				let module = modules[moduleFolder] = {};
 				let modulePath = path.join(this.Par.BrokerPath, moduleFolder);
 				for(let file of fs.readdirSync(modulePath)) {
-					let filepath = path.join(modulePath, file);
-					module[file] = fs.readFileSync(filepath).toString();
+					try{
+						let filepath = path.join(modulePath, file);
+						module[file] = fs.readFileSync(filepath).toString();
+					} catch (e) {
+						log.w(e);
+					}
 				}
 			}
 

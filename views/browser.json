@@ -10,7 +10,7 @@
 			"Source": "Local",
 			"Par": {
 				"Root": true,
-				"Children": "$Explorer"
+				"Children": "$AceEditor"
 			}
 		},
 		"Explorer": {
@@ -18,6 +18,13 @@
 			"Source": "Local",
 			"Par": {
 				"Broker": "$LocalModules"
+			}
+		},
+		"AceEditor": {
+			"Module": "Monaco",
+			"Source": "Local",
+			"Par": {
+				
 			}
 		},
 		"LocalModules": {
