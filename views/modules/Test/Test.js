@@ -3,6 +3,7 @@
 	class Test {
 		async Start(com, fun) {
 			com = await this.asuper(com);
+			fun(null, com);
 		}
 
 		async DarkMode(com, fun) {

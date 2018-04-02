@@ -10,21 +10,26 @@
 			"Source": "Local",
 			"Par": {
 				"Root": true,
-				"Children": "$AceEditor"
+				"Children": [
+					"$Explorer",
+					"$PreEditor"
+				]
 			}
 		},
 		"Explorer": {
 			"Module": "BrokerExplorer",
 			"Source": "Local",
 			"Par": {
-				"Broker": "$LocalModules"
+				"Broker": "$LocalModules",
+				"Editor": "$PreEditor"
 			}
 		},
-		"AceEditor": {
-			"Module": "Monaco",
+		"PreEditor": {
+			"Module": "PreEditor",
 			"Source": "Local",
 			"Par": {
-				
+				"Text": "Default Text",
+				"Broker": "$LocalModules"
 			}
 		},
 		"LocalModules": {

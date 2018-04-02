@@ -48,15 +48,17 @@
 			fun(null, com);
 		}
 
-		GetFile(com, fun) {
+		GetFileContents(com, fun) {
 			let module = this.Vlt.cache[com.Module];
 			com.File = module[com.Filepath];
 			fun(null, com);
 		}
 
 		UpdateFile(com, fun) {
-			let module = this.Vlt.cache[com.Module];
-			module[com.Filepath] = com.File || com.Contents;
+			let module = this.Vlt.cache[com.DocumentId.Module];
+			module[com.DocumentId.Filepath] = com.File || com.Contents;
+			let {fs, path} = this.Vlt;
+			fs.writeFileSync(path.join(this.Par.BrokerPath, com.DocumentId.Module, com.DocumentId.Filepath), module[com.DocumentId.Filepath]);
 			fun(null, com);
 		}
 	}

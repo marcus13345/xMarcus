@@ -1,0 +1,8 @@
+#editor {
+	margin: 0px;
+	padding: 8px;
+	padding-bottom: 64px;
+	outline: none;
+	color: var(--text);
+	border-left: 1px solid var(--subtext);
+}

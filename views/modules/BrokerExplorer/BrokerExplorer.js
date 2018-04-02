@@ -9,6 +9,8 @@
 				that.Vlt.div.find('.collapsible').collapsible();
 			});
 			this.ascend('LoadModules');
+
+			com = await this.asuper(com);
 			fun(null, com);
 		}
 
@@ -28,10 +30,21 @@
 				this.Par.$.modules.append(elems);
 				let files = (await this.ascend('GetFiles', {Module: module}, this.Par.Broker)).Files
 				for(let filename of files) {
-					let fileItem = await this.partial('file', {fileName: filename});
+					let fileItem = await this.partial('file', {fileName: filename, module: module});
 					elems.find('.fileList').append(fileItem);
 				}
 			}
+			fun(null, com);
+		}
+
+		async SelectFile(com, fun) {
+			let module = $(com.Element).attr('module').trim();
+			let fileName = $(com.Element).attr('fileName').trim();
+			let contents = (await this.ascend('GetFileContents', {
+				Module: module,
+				Filepath: fileName
+			}, this.Par.Broker)).File;
+			await this.ascend('SetText', {Value: contents, DocumentId: {Module: module, Filepath: fileName}}, this.Par.Editor);
 			fun(null, com);
 		}
 	}
