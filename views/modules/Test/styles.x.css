@@ -11,7 +11,7 @@
 	--accent: var(--introspective-green);
 	
 	--text: black;
-	--subtext: rgba(0, 0, 0, 0.7);
+	--subtext: #333
 	--view-color: white;
 	--navbar-color: #DBDBDB;
 }
@@ -173,10 +173,8 @@ div.switch label {
 #root[running] #playButton {
 	display: none;
 }
-#root[running] #stopButton {
-	display: initial;
-}
-#stopButton {
+
+#root:not([running]) #stopButton, #root:not([running]) #restartButton {
 	display: none;
 }
 
@@ -190,6 +188,10 @@ div.switch label {
 	background-color: var(--accent);
 }
 
+.switch label {
+	position: relative;
+	top: 2px;
+}
 
 /* change the colors on the switch */
 .switch label input[type=checkbox]:checked+.lever:after {

@@ -13,7 +13,8 @@
 				"Children": [
 					"$Explorer",
 					"$PreEditor"
-				]
+				],
+				"System": "$System"
 			}
 		},
 		"Explorer": {
@@ -37,6 +38,13 @@
 			"Source": "Core",
 			"Par": {
 				"Link": "LocalModules"
+			}
+		},
+		"System": {
+			"Module": "xGraph.WebProxy",
+			"Source": "Core",
+			"Par": {
+				"Link": "System"
 			}
 		}
 	}

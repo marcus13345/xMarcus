@@ -10,9 +10,10 @@
 			"Source": "Core",
 			"Par": {
 				"ApexList": {
-					"LocalModules": "$LocalModules"
+					"LocalModules": "$LocalModules",
+					"System": "$TestSystem"
 				},
-				"Port": 8080,
+				"Port": "{Port}",
 				"Url": "",
 				"HTML": "@file: browser.html",
 				"": "@system: browser.json",
@@ -24,6 +25,35 @@
 			"Source": "Local",
 			"Par": {
 				"BrokerPath": "./modules"
+			}
+		},
+		"TestSystem": {
+			"Module": "xGraph.Proxy",
+			"Source": "Core",
+			"Par": {
+				"Role": "client",
+				"Host": "127.0.0.1",
+				"Port": "{ConnectTo}",
+				"Poll": true,
+				"Encrypt": false
+			}
+		},
+		"TestSystemServer": {
+			"Module": "xGraph.Proxy",
+			"Source": "Core",
+			"Par": {
+				"Role": "server",
+				"Host": "127.0.0.1",
+				"Port": "{SysPort}",
+				"Link": "$Self",
+				"Encrypt": false
+			}
+		},
+		"Self": {
+			"Module": "System",
+			"Source": "Local",
+			"Par": {
+				"Name": "{SystemName}"
 			}
 		}
 	}

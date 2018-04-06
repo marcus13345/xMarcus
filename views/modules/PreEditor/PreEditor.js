@@ -16,12 +16,12 @@
 		SetText(com, fun) {
 			// this.Par.$.title.html(com.Filename);
 			this.Par.DocumentId = com.DocumentId;
-			this.Par.$.editor.html(com.Text || com.Value);
+			this.Par.$.editor.val(com.Text || com.Value);
 			fun(null, com);
 		}
 
 		async Save(com, fun) {
-			let contents = this.Par.$.editor.html()
+			let contents = this.Par.$.editor.val()
 			await this.ascend('UpdateFile', {DocumentId: this.Par.DocumentId, Contents: contents}, this.Par.Broker);
 		}
 	}

@@ -1,4 +1,4 @@
-<div dark id="root">
+<div dark loading id="root">
 	<!-- set up the material-icons class. the @font-face will fail (Shadow DOM bug/feature), but its been copied into global -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -26,7 +26,7 @@
 			</div>
 		</div>
 		<div class="menubarItemContainer">
-			<button button class="menubarButton">View</bsutton>
+			<button button class="menubarButton">Edit</button>
 			<div class="menubarDropdown z-depth-3">
 				<a href="#" button class="waves-effect">System</a>
 				<a href="#" button class="waves-effect">System</a>
@@ -68,8 +68,20 @@
 			</label>
 		</div>
 
-		<i class="material-icons green-text" id="playButton" xgraph-hook xgraph-event-click="RunSystem">play_arrow</i>
-		<i class="material-icons red-text" id="stopButton" xgraph-hook xgraph-event-click="StopSystem">stop</i>
+		<i class="material-icons green-text" 
+		   id="playButton"
+			 xgraph-hook
+			 xgraph-event-click="RunSystem">play_arrow</i>
+		<i class="material-icons red-text"
+		   id="stopButton"
+			 xgraph-hook
+			 xgraph-event-click="StopSystem">stop</i>
+		<i class="material-icons red-text"
+		   id="restartButton"
+			 xgraph-hook
+			 xgraph-event-click="RestartSystem">replay</i>
+
+		<span id="ConnectedSystem">Disconnected</span>
 
 		<div style="float: right">
 			<div class="switch" style="padding: 7px;">

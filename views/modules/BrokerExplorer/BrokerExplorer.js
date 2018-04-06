@@ -1,4 +1,5 @@
 //# sourceURL=BrokerExplorer
+// test
 (function BrokerExplorer() {
 	class BrokerExplorer {
 		async DOMLoaded(com, fun) {

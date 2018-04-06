@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "views": "xgraph r --CWD views --Core ./../xGraph/Core/Modules --Extensions ./../xGraph/Extension --local ./views/modules"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "evo": "xgraph r --CWD views --cache ./evo --Core ./../xGraph/Core/Modules --Extensions ./../xGraph/Extension --local ./views/modules --Port 80 --SysPort 2700 --ConnectTo 2800 --SystemName \"Evo Release Server\"",
+    "evo-test": "xgraph r --CWD views --cache ./evo-test --Core ./../xGraph/Core/Modules --Extensions ./../xGraph/Extension --local ./views/modules --Port 8080 --SysPort 2800 --ConnectTo 2700 --SystemName \"Evo Debug Server\"",
+    "xMod": "xgraph c --CWD views --cache ./xmod-cache --Core ./../xGraph/Core/Modules --Extensions ./../xGraph/Extension --local ./views/modules --Port 8080 --SysPort 2800 --ConnectTo 2700 --SystemName \"Evo Debug Server\""
   },
   "author": "",
   "license": "ISC",
