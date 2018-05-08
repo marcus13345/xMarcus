@@ -24,7 +24,7 @@
 			"Module": "RepositoryAdapter",
 			"Source": "Local",
 			"Par": {
-				"BrokerPath": "./modules"
+				"BrokerPath": "./views/modules"
 			}
 		},
 		"TestSystem": {
