@@ -1,0 +1,28 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Program",
+			"program": "${workspaceFolder}\\..\\xGraph\\src\\xgraph.js",
+			"args": [
+				"reset",
+				"--CWD", "views",
+				"--cache", "./evo",
+				"--Core", "./../Modules",
+				"--Extensions", "./../xGraph/Extension",
+				"--local", "./views/modules",
+				"--Port", "80",
+				"--SysPort", "2700",
+				"--ConnectTo", "2800",
+				"--SystemName", "Evo Release Server"
+			],
+			"console": "integratedTerminal",
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
