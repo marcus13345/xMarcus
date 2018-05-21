@@ -1,41 +1,99 @@
-i {
-	color: var(--accent);
+body, html {
 }
 
-.collection.with-header .collection-header, .collection .collection-item {
-	background: var(--view-color);
-	color: var(--text);
+:host {
+  background: #20262E;
+  font-family: "Segoe UI", "Open Sans";
+
+  width: 400px;
+  height: 100vh;
+  background: #252526;
+  color: #aaa;
+  font-size: 13px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version Chronme/Opera */
 }
 
-.collapsible-header {
-	background-color: var(--view-color);
-	border: none;
-	color: var(--text);
+.title {
+  border-bottom: 1px solid #3F4043;
 }
 
-.collapsible-body {
-	border: none;
-	color: var(--subtext);
-	padding: 0px;
+.title span {
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 36px;
+  padding-left: 29px;
+  display: inline-block;
 }
 
-.collapsible {
-	border: none;
-	margin: 0px;
+.title .icon {
+  font-size: 20px;
+  position: relative;
+  float: right;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
 }
 
-li.file {
-	line-height: 44px;
-	padding: 0px 2rem;
-	cursor: pointer;
+.root {
+  cursor: pointer;
+  padding-left: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #383838;
+  /* margin-bottom: 4px; */
 }
 
-.waves-effect.waves-brown .waves-ripple {
-	/* The alpha value allows the text and background color
-	of the button to still show through. */
-	background-color: rgba(121, 85, 72, 0.65);
+.root .material-icons {
+  vertical-align: top;
 }
 
-.collapsible-header {
-	z-index: 0;
+.root:not(:nth-child(2)) {
+  /* margin-top: 6px; */
+}
+
+.root[open] .right {
+  display: none;
+}
+
+.root[open] .down {
+  display: initial;
+}
+
+.root .down {
+  display: none;
+}
+
+.root .header {
+  padding: 4px 0px;
+  line-height: 23px;
+}
+
+.item {
+  line-height: 1.4em;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  padding-left: calc(var(--indent) * 16px + 29px);
+}
+
+.item[hidden] {
+  display: none;
+}
+
+.item:hover {
+  background: #2A2D2E;
+}
+
+.root + .item:not([hidden]) {
+  margin-top: 4px;
+}
+
+.item:not([hidden]) + .root {
+  margin-top: 6px;
 }

@@ -1,7 +1,6 @@
 {
 	"Sources": {
 		"Core": "{Core}",
-		"Extensions": "{Extensions}",
 		"Local": "{local}"
 	},
 	"Modules": {
@@ -21,10 +20,13 @@
 			}
 		},
 		"LocalModules": {
-			"Module": "RepositoryAdapter",
-			"Source": "Local",
+			"Module": "xGraph.Proxy",
+			"Source": "Core",
 			"Par": {
-				"BrokerPath": "./views/modules"
+				"Role": "client",
+				"Host": "127.0.0.1",
+				"Port": "27000",
+				"Poll": true
 			}
 		},
 		"TestSystem": {
@@ -33,27 +35,8 @@
 			"Par": {
 				"Role": "client",
 				"Host": "127.0.0.1",
-				"Port": "{ConnectTo}",
-				"Poll": true,
-				"Encrypt": false
-			}
-		},
-		"TestSystemServer": {
-			"Module": "xGraph.Proxy",
-			"Source": "Core",
-			"Par": {
-				"Role": "server",
-				"Host": "127.0.0.1",
-				"Port": "{SysPort}",
-				"Link": "$Self",
-				"Encrypt": false
-			}
-		},
-		"Self": {
-			"Module": "System",
-			"Source": "Local",
-			"Par": {
-				"Name": "{SystemName}"
+				"Port": "2800",
+				"Poll": true
 			}
 		}
 	}

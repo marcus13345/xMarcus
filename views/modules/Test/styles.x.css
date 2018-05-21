@@ -68,6 +68,15 @@
 
 #viewport {
 	background: var(--view-color);
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#viewportWrapper {
+	position: relative;
+	height: 100%;
 }
 
 #top .menubarButton {
@@ -87,10 +96,6 @@
 	cursor: pointer;
 }
 
-#viewport {
-	flex-grow: 1;
-	height:100%;
-}
 
 #bottom {
 	height: 48px;
@@ -204,4 +209,8 @@ div.switch label {
 
 .right {
 	width: calc(100% - 200px);
+}
+
+.left, .right {
+	height: 100%;
 }

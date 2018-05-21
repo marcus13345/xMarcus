@@ -4,6 +4,20 @@
 	class BrokerExplorer {
 		async DOMLoaded(com, fun) {
 			// debugger;
+
+			$('.root').on('click', function() {
+				let content = $(this).nextUntil('.root');
+				if($(this).attr('open') != null) {
+					// hide everything
+					$(this).attr('open', null);
+					content.attr('hidden', true);
+				}else {
+					// show everything
+					$(this).attr('open', true);
+					content.attr('hidden', null);
+				}
+			});
+
 			await this.cdnImportJs("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js");
 			let that = this;
 			$(document).ready(_ => {

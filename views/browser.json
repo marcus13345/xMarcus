@@ -21,19 +21,19 @@
 			"Module": "BrokerExplorer",
 			"Source": "Local",
 			"Par": {
-				"Broker": "$LocalModules",
+				"Broker": "$thingy",
 				"Editor": "$PreEditor"
 			}
 		},
 		"PreEditor": {
-			"Module": "PreEditor",
+			"Module": "Monaco",
 			"Source": "Local",
 			"Par": {
 				"Text": "Default Text",
-				"Broker": "$LocalModules"
+				"Broker": "$thingy"
 			}
 		},
-		"LocalModules": {
+		"thingy": {
 			"Module": "xGraph.WebProxy",
 			"Source": "Core",
 			"Par": {
