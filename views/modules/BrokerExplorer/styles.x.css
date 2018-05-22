@@ -1,12 +1,9 @@
-body, html {
-}
-
 :host {
   background: #20262E;
   font-family: "Segoe UI", "Open Sans";
 
-  width: 400px;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: #252526;
   color: #aaa;
   font-size: 13px;

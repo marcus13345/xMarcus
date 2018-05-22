@@ -5,7 +5,7 @@
 		async DOMLoaded(com, fun) {
 			// debugger;
 
-			$('.root').on('click', function() {
+			this.Vlt.div.on('click', '.root', function() {
 				let content = $(this).nextUntil('.root');
 				if($(this).attr('open') != null) {
 					// hide everything
@@ -18,13 +18,9 @@
 				}
 			});
 
-			await this.cdnImportJs("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js");
-			let that = this;
-			$(document).ready(_ => {
-				that.Vlt.div.find('.collapsible').collapsible();
-			});
 			this.ascend('LoadModules');
 
+			
 			com = await this.asuper(com);
 			fun(null, com);
 		}

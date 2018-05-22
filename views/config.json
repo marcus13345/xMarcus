@@ -1,11 +1,14 @@
 {
 	"Sources": {
-		"Core": "{Core}",
+		"Core": {
+			"Host": "modulebroker.xgraphdev.com",
+			"Port": 27000
+		},
 		"Local": "{local}"
 	},
 	"Modules": {
 		"Server": {
-			"Module": "xGraph.WebViewer",
+			"Module": "WebViewer",
 			"Source": "Core",
 			"Par": {
 				"ApexList": {
@@ -20,7 +23,7 @@
 			}
 		},
 		"LocalModules": {
-			"Module": "xGraph.Proxy",
+			"Module": "Proxy",
 			"Source": "Core",
 			"Par": {
 				"Role": "client",
@@ -30,7 +33,7 @@
 			}
 		},
 		"TestSystem": {
-			"Module": "xGraph.Proxy",
+			"Module": "Proxy",
 			"Source": "Core",
 			"Par": {
 				"Role": "client",
