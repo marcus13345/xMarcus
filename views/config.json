@@ -7,39 +7,10 @@
 		"Local": "{local}"
 	},
 	"Modules": {
-		"Server": {
-			"Module": "WebViewer",
-			"Source": "Core",
+		"WSBroker": {
+			"Module": "WebSocketServerProxy",
+			"Source": "Local",
 			"Par": {
-				"ApexList": {
-					"LocalModules": "$LocalModules",
-					"System": "$TestSystem"
-				},
-				"Port": "{Port}",
-				"Url": "",
-				"HTML": "@file: browser.html",
-				"": "@system: browser.json",
-				"Static": "@directory: static"
-			}
-		},
-		"LocalModules": {
-			"Module": "Proxy",
-			"Source": "Core",
-			"Par": {
-				"Role": "client",
-				"Host": "127.0.0.1",
-				"Port": "27000",
-				"Poll": true
-			}
-		},
-		"TestSystem": {
-			"Module": "Proxy",
-			"Source": "Core",
-			"Par": {
-				"Role": "client",
-				"Host": "127.0.0.1",
-				"Port": "2800",
-				"Poll": true
 			}
 		}
 	}
