@@ -7,10 +7,31 @@
 		"Local": "{local}"
 	},
 	"Modules": {
-		"WSBroker": {
+		"Server": {
+			"Module": "WebViewer",
+			"Source": "Core",
+			"Par": {
+				"ApexList": {
+				},
+				"Port": 80,
+				"Url": "",
+				"HTML": "@file: browser.html",
+				"": "@system: browser.json",
+				"Static": "@directory: static"
+			}
+		},
+		"Self": {
+			"Module": "System",
+			"Source": "Local",
+			"Par": {
+				"Name": "Work?"
+			}
+		},
+		"SelfProxy": {
 			"Module": "WebSocketServerProxy",
 			"Source": "Local",
 			"Par": {
+				"Link": "Self"
 			}
 		}
 	}

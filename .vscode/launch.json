@@ -13,36 +13,10 @@
 				"reset",
 				"--CWD", "views",
 				"--cache", "./evo",
-				"--Core", "./../Modules",
-				"--Extensions", "./../xGraph/Extension",
-				"--local", "./views/modules",
-				"--Port", "80",
-				"--SysPort", "2700",
-				"--ConnectTo", "2800",
-				"--SystemName", "Evo Release Server"
+				"--local", "./modules"
 			],
 			"console": "integratedTerminal",
 			"cwd": "${workspaceFolder}"
 		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "Evo Test",
-			"program": "${workspaceFolder}\\..\\xGraph\\src\\xgraph.js",
-			"args": [
-				"reset",
-				"--CWD", "views",
-				"--cache", "./evo-test",
-				"--Core", "./../Modules",
-				"--Extensions", "./../xGraph/Extension",
-				"--local", "./views/modules",
-				"--Port", "8080",
-				"--SysPort", "2800",
-				"--ConnectTo", "2700",
-				"--SystemName", "Evo Debug Server"
-			],
-			"console": "integratedTerminal",
-			"cwd": "${workspaceFolder}"
-		}
 	]
 }

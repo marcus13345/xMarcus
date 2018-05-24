@@ -1,0 +1,13 @@
+{
+	"Sources": {
+		"Local": "{local}"
+	},
+	"Modules": {
+		"WSBroker": {
+			"Module": "WebSocketServerProxy",
+			"Source": "Local",
+			"Par": {
+			}
+		}
+	}
+}

@@ -1,18 +1,14 @@
 {
-	"Sources": {
-		"Core": "{Core}",
-		"Extensions": "{Extensions}",
-		"Local": "{local}"
-	},
+	"Sources": {},
 	"Modules": {
 		"Evo": {
-			"Module": "Test",
+			"Module": "Frame",
 			"Source": "Local",
 			"Par": {
 				"Root": true,
 				"Children": [
 					"$Explorer",
-					"$PreEditor"
+					"$Monaco"
 				],
 				"System": "$System"
 			}
@@ -21,11 +17,10 @@
 			"Module": "BrokerExplorer",
 			"Source": "Local",
 			"Par": {
-				"Broker": "$thingy",
-				"Editor": "$PreEditor"
+				"Editor": "$Monaco"
 			}
 		},
-		"PreEditor": {
+		"Monaco": {
 			"Module": "Monaco",
 			"Source": "Local",
 			"Par": {
@@ -33,18 +28,12 @@
 				"Broker": "$thingy"
 			}
 		},
-		"thingy": {
-			"Module": "xGraph.WebProxy",
-			"Source": "Core",
-			"Par": {
-				"Link": "LocalModules"
-			}
-		},
 		"System": {
-			"Module": "xGraph.WebProxy",
-			"Source": "Core",
+			"Module": "WebSocketClientProxy",
+			"Source": "Local",
 			"Par": {
-				"Link": "System"
+				"Host": "localhost",
+				"Port": "52310"
 			}
 		}
 	}

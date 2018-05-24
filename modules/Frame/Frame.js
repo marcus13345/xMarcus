@@ -1,6 +1,6 @@
 //# sourceURL=Test
-(function Test() {
-	class Test {
+(function Frame() {
+	class Frame {
 		async Start(com, fun) {
 			com = await this.asuper(com);
 			
@@ -69,5 +69,5 @@
 		}
 	}
 
-	return Viewify(Test, "4.0");
+	return Viewify(Frame, "4.0");
 })();
