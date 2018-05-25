@@ -5,7 +5,7 @@
 			com = await this.asuper(com);
 			
 			this.Par.Connected = false;
-			this.ascend('ConnectSystem');
+			// this.ascend('ConnectSystem');
 
 			fun(null, com);
 		}
@@ -16,12 +16,11 @@
 				let loop = async _ => {
 					try {
 						await this.ascend('Ping', {}, this.Par.System);
+						setTimeout(loop, 1000);
 						// Materialize.toast({html: 'hey'});
 						// alert('okie');
-						setTimeout(loop, 1000);
 					} catch(e) {
 						//lol rip
-						debugger;
 						this.Par.Connected = false;
 						this.Par.$.root.attr('running', null);
 					}
@@ -55,6 +54,8 @@
 
 		async RunSystem(com, fun) {
 			this.Par.$.root.attr('running', '');
+			this.Par.$.root.attr('loading', '');
+			this.Par.$.ConnectedSystem.html('Awaiting connection...');
 			fun(null, com);
 		}
 		

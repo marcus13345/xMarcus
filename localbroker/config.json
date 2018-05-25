@@ -3,10 +3,19 @@
 		"Local": "{local}"
 	},
 	"Modules": {
-		"WSBroker": {
+		"Self": {
+			"Module": "System",
+			"Source": "Local",
+			"Par": {
+				"Name": "Local Broker"
+			}
+		},
+		"SelfProxy": {
 			"Module": "WebSocketServerProxy",
 			"Source": "Local",
 			"Par": {
+				"Link": "$Self",
+				"Port": 52310
 			}
 		}
 	}

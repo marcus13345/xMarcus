@@ -1,5 +1,7 @@
 {
-	"Sources": {},
+	"Sources": {
+		"Local": "{local}"
+	},
 	"Modules": {
 		"Evo": {
 			"Module": "Frame",
