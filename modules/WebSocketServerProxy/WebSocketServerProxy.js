@@ -3,7 +3,8 @@
 	class WebSocketServerProxy {
 
 		Stop(com, fun) {
-			
+			this.Vlt.server.close();
+			fun(null, com);
 		}
 
 		Setup(com, fun) {

@@ -1,6 +1,10 @@
 {
 	"Sources": {
-		"Local": "{local}"
+		"Local": "{local}",
+		"Core": {
+			"Host": "modulebroker.xgraphdev.com",
+			"Port": 27000
+		}
 	},
 	"Modules": {
 		"Evo": {
@@ -8,11 +12,23 @@
 			"Source": "Local",
 			"Par": {
 				"Root": true,
-				"Children": [
-					"$Explorer",
-					"$Monaco"
-				],
+				"Children": 
+					{
+						"View": "$Panel",
+						"Children": [
+							"$Explorer",
+							"$Monaco"
+						]
+					}
+				,
 				"System": "$System"
+			}
+		},
+		"Panel": {
+			"Module": "PanelView",
+			"Source": "Core",
+			"Par": {
+				"Ratio": 0.3
 			}
 		},
 		"Explorer": {
@@ -34,7 +50,7 @@
 			"Module": "WebSocketClientProxy",
 			"Source": "Local",
 			"Par": {
-				"Host": "localhost",
+				"Host": "192.168.2.209",
 				"Port": "52310"
 			}
 		}

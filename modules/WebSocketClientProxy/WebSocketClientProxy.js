@@ -12,10 +12,24 @@
 			this.Vlt.connected = false
 
 			let reconnect = () => {
+
+				let hasClosed = false;
+				let closed = _ => {
+					if(hasClosed) return
+					hasClosed = true
+					log.i(`Websocket closed: ${url}`)
+					this.Vlt.socket = null
+					this.Vlt.connected = false
+					this.Vlt.connectionLoop = setTimeout(reconnect, 0)
+				}
+
 				this.Vlt.socket = new WebSocket(url)
 				log.v(`Websocket polling ${url}`)
 
-					
+				this.Vlt.socket.addEventListener('error', closed)
+
+				this.Vlt.socket.addEventListener('close', closed)
+				
 				// Connection opened
 				this.Vlt.socket.addEventListener('open', (event) => {
 					this.Vlt.connected = true
@@ -39,20 +53,6 @@
 						}
 					}
 				})
-
-				let hasClosed = false;
-				let closed = _ => {
-					if(hasClosed) return
-					hasClosed = true
-					log.i(`Websocket closed: ${url}`)
-					this.Vlt.socket = null
-					this.Vlt.connected = false
-					this.Vlt.connectionLoop = setTimeout(reconnect, 0)
-				}
-
-				this.Vlt.socket.addEventListener('error', closed)
-
-				this.Vlt.socket.addEventListener('close', closed)
 			}
 			reconnect();
 			

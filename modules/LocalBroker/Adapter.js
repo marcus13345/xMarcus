@@ -9,10 +9,6 @@
 			});
 		}
 
-		GetModules() {
-
-		}
-
 		UpdateCache(com, fun) {
 			let {fs, path} = this.Vlt;
 			let modules = this.Vlt.cache = {};
