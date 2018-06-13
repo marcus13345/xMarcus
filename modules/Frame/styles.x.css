@@ -6,22 +6,35 @@
 	user-select: none;
 	min-width:540px;
 
+
+	/* Custom */
 	--evo-blue: #3F6CD3;
 	--introspective-green: #67BA46;
-	--accent: var(--introspective-green);
 	
-	--text: black;
-	--subtext: #333
-	--view-color: white;
+	
+	/* accent & accent color are the same, use accent color giong forward */
+	--accent: var(--introspective-green);
+	--accent-color: var(--introspective-green);
+	
+	/* text is mostly for headers, and subtext is mostly content */
+	--text: rgba(0, 0, 0, 0.95);
+	--subtext: rgba(0, 0, 0, 0.8125);
+
+	/*  */
+	--view-color: #FFFFFF;
+	--view-border-color: #CCCCCC;
 	--navbar-color: #DBDBDB;
+
+	--hover-color: rgba(0, 0, 0, 0.2);
 }
 
 #root[dark] {
-	--text: #D5D5D5;
-	--subtext: #919191;
-	--view-color: #242424;
+	--text: rgba(255, 255, 255, .9);
+	--subtext: rgba(255, 255, 255, .65);
+	--view-color: #1E1E1E;
 	--navbar-color: #2A2A2A;
-	
+	--view-border-color: #5C5C5C;
+	--hover-color: rgba(255, 255, 255, 0.2);
 }
 
 #top > .progress {
@@ -89,6 +102,7 @@
 	padding-top: 4px;
 	box-sizing: border-box;
 	font-size: 13px;
+	color: var(--subtext);
 }
 
 #top button:hover, #top button.selected {
@@ -153,6 +167,15 @@
 	padding: 4px;
 	cursor: pointer;
 }
+
+#bottom > i.material-icons:active {
+	padding: 4px;
+	cursor: pointer;
+	transform: scale(1.15);
+}
+
+
+
 
 #bottom > span {
 	vertical-align: top;

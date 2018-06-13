@@ -16,9 +16,5 @@
     "evo-test": "xgraph r --CWD views --cache ./evo-test --Core ./../Modules --Extensions ./../xGraph/Extension --local ./views/modules --Port 8080 --SysPort 2800 --ConnectTo 2700 --SystemName \"Evo Debug Server\""
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "electron": "^1.8.2",
-    "ws": "^5.2.0"
-  }
+  "license": "ISC"
 }

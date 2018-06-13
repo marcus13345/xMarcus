@@ -1,6 +1,6 @@
 {
 	"Apex": {
-		"Entity": "System.js",
+		"Entity": "SystemOfSystems.js",
 		"$Start": "Start"
 	}
 }

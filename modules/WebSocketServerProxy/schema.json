@@ -1,7 +1,0 @@
-{
-	"Apex": {
-		"Entity": "WebSocketServerProxy.js",
-		"$Setup": "Setup",
-		"$Stop": "Stop"
-	}
-}

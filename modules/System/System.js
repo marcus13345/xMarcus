@@ -1,6 +1,10 @@
 (function System() {
 	class System {
 
+		Start(com, fun) {
+			fun(null, com);
+		}
+
 		Ping(com, fun) {
 			fun(null, com);
 		}

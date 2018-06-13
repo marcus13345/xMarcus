@@ -1,9 +1,11 @@
-//# sourceURL=Test
+//# sourceURL=Frame
 (function Frame() {
 	class Frame {
 		async Start(com, fun) {
 			com = await this.asuper(com);
 			
+			this.ascend('DarkMode', {Checked: true});
+
 			this.Par.Connected = false;
 			this.ascend('PingLoop');
 
@@ -29,6 +31,7 @@
 				setTimeout(loop, 1000);
 			};
 			setTimeout(loop, 1000);
+			fun(null, com);
 		}
 
 		async Disconnected(com, fun) {
@@ -47,7 +50,9 @@
 		}
 
 		async DarkMode(com, fun) {
-			this.Par.$.root.attr('dark', com.Checked ? '' : null);
+			let val = com.Checked ? '' : null;
+			this.Par.$.root.attr('dark', val);
+			$(document.body).attr('dark', val);
 			fun(null, com);
 		}
 

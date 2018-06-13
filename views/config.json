@@ -4,12 +4,13 @@
 			"Host": "modulebroker.xgraphdev.com",
 			"Port": 27000
 		},
+		"DevCore": "{devcore}",
 		"Local": "{local}"
 	},
 	"Modules": {
 		"Server": {
 			"Module": "WebViewer",
-			"Source": "Core",
+			"Source": "DevCore",
 			"Par": {
 				"ApexList": {
 				},
@@ -18,6 +19,21 @@
 				"HTML": "@file: browser.html",
 				"": "@system: browser.json",
 				"Static": "@directory: static"
+			}
+		},
+		"Self": {
+			"Module": "System",
+			"Source": "Local",
+			"Par": {
+				"Name": "HTTP Webserver"
+			}
+		},
+		"SelfProxy": {
+			"Module": "WebsocketServerProxy",
+			"Source": "Core",
+			"Par": {
+				"Link": "$Self",
+				"Port": 52311
 			}
 		}
 	}

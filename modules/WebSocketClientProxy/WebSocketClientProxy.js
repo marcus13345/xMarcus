@@ -10,6 +10,7 @@
 			let ETX = this.Vlt.ETX = '\x03'
 			this.Vlt.callbackTable = {};
 			this.Vlt.connected = false
+			this.Vlt.buffer = ""
 
 			let reconnect = () => {
 
@@ -34,12 +35,16 @@
 				this.Vlt.socket.addEventListener('open', (event) => {
 					this.Vlt.connected = true
 					log.i(`WebSocket Proxy Connected ${url}`)
+					if(this.Vlt.buffer !== '') {
+						log.i(`sending ${this.Vlt.buffer.split(/(\x02.*\x03)/).length} back message(s)`)
+						
+						this.Vlt.socket.send(this.Vlt.buffer);
+						this.Vlt.buffer = "";
+					}
 				})
 
 				let buffer = "";
 				this.Vlt.socket.addEventListener('message', (event) => {
-					// debugger;
-					log.i('Message from server ', event.data)
 					let parts = event.data.split(/([\x02\x03])/g);
 					for(let part of parts) {
 						if(part === this.Vlt.STX) {
@@ -62,12 +67,14 @@
 		"*" (com, fun) {
 			let STX = this.Vlt.STX
 			let ETX = this.Vlt.ETX
+			let message = `${STX}${JSON.stringify(com)}${ETX}`
+			this.Vlt.callbackTable[com.Passport.Pid] = fun
 			if(this.Vlt.connected) {
-				let message = `${STX}${JSON.stringify(com)}${ETX}`
-				this.Vlt.callbackTable[com.Passport.Pid] = fun
 				this.Vlt.socket.send(message)
 			} else {
-				fun(new Error('ERR_DISCONNECTED'), com)
+				//be hopeful, well connect soon enough and send it then
+				//plz dont overflow this....
+				this.Vlt.buffer += message
 			}
 		}
 

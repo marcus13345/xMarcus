@@ -1,18 +1,19 @@
 {
 	"Sources": {
 		"Local": "{local}",
+		"DevCore": "{devcore}",
 		"Core": {
 			"Host": "modulebroker.xgraphdev.com",
 			"Port": 27000
 		}
 	},
 	"Modules": {
-		"Evo": {
+		"Frame": {
 			"Module": "Frame",
 			"Source": "Local",
 			"Par": {
 				"Root": true,
-				"Children": 
+				"Children": [
 					{
 						"View": "$Panel",
 						"Children": [
@@ -20,22 +21,39 @@
 							"$Monaco"
 						]
 					}
-				,
+				],
 				"System": "$System"
+			}
+		},
+		"SystemOfSystems": {
+			"Module": "SystemOfSystems",
+			"Source": "Local",
+			"Par": {
+				"Sources": {
+					"Core": {
+						"Host": "modulebroker.xgraphdev.com",
+						"Port": 27002
+					}
+				},
+				"Systems": {
+					"Evo HTTP Server": "$System"
+				}
 			}
 		},
 		"Panel": {
 			"Module": "PanelView",
-			"Source": "Core",
+			"Source": "DevCore",
 			"Par": {
-				"Ratio": 0.3
+				"Ratio": 0.17,
+				"Horizontal": true
 			}
 		},
 		"Explorer": {
 			"Module": "BrokerExplorer",
 			"Source": "Local",
 			"Par": {
-				"Editor": "$Monaco"
+				"Editor": "$Monaco",
+				"SystemOfSystems": "$SystemOfSystems"
 			}
 		},
 		"Monaco": {
@@ -50,9 +68,19 @@
 			"Module": "WebSocketClientProxy",
 			"Source": "Local",
 			"Par": {
-				"Host": "192.168.2.209",
-				"Port": "52310"
+				"Host": "localhost",
+				"Port": 52311
 			}
-		}
+		},
+		"Deferred": [
+			{
+				"Module": "ModuleCache",
+				"Source": "Local"
+			},
+			{
+				"Module": "WebSocketClientProxy",
+				"Source": "Local"
+			}
+		]
 	}
 }

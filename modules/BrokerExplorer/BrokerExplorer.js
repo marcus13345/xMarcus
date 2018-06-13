@@ -1,9 +1,9 @@
 //# sourceURL=BrokerExplorer
-// test
 (function BrokerExplorer() {
 	class BrokerExplorer {
 		async DOMLoaded(com, fun) {
 			// debugger;
+			this.Par.Brokers = this.Par.Brokers || [];
 
 			this.Vlt.div.on('click', '.root', function() {
 				let content = $(this).nextUntil('.root');
@@ -18,33 +18,110 @@
 				}
 			});
 
-			this.ascend('LoadModules');
+			//ask system of systems about the sources, then genmod
+			try {
+				let sourcesRequest = this.ascend('GetSources', {}, this.Par.SystemOfSystems);
+				let sources = (await sourcesRequest).Sources;
+				
+				for(let name in sources) {
+					await this.ascend('AddBroker', {
+						Host: sources[name].Host,
+						Port: sources[name].Port,
+						Name: name
+					});
+				}
 
+			} catch(e) {
+				this.Par.modules.append($(`<pre>${e.toString()}</pre>`))
+			}
 			
 			com = await this.asuper(com);
 			fun(null, com);
 		}
 
-		async LoadModules(com, fun) {
-			// debugger;
-			let modules = this.ascend('GetModules', {}, this.Par.Broker);
+		async AddBroker(com, fun) {
+
+			let host = com.Host;
+			let port = com.Port;
+			let name = com.Name;
+			
+			//Create the broker cache
+			let moduleCache = await this.genModuleAsync({
+				Module: 'ModuleCache',
+				Par: {
+					Host: host,
+					Port: port
+				}
+			});
+
+			// keep a reference to all the broker caches we have.
+			this.Par.Brokers.push({
+				Name: name,
+				Host: host,
+				Port: port,
+				Pid: moduleCache
+			});
+
+			// render the root for this broker
+			let brokerRootElems = await this.partial('broker', {
+				host, port, name
+			});
+			this.Par.$.modules.append(brokerRootElems);
+
+			// get modules from the cache (will trigger its first query)
+			let modules = this.ascend('GetModules', {}, moduleCache);
 			try{
 				modules = await modules;
-			}catch(e) {
+			}catch([err, cmd]) {
 				modules = {Modules: []};
-				log.w(e);
+				log.w(err);
 				log.w('loading empty array of modules instead');
 			}
 			modules = modules.Modules;
 			for(let module of modules) {
-				let elems = await this.partial('moduleListing', {moduleName: module});
+				let moduleName = module.name;
+				let moduleVersion = module.version;
+				let elems = await this.partial('moduleListing', {
+					moduleName: moduleName,
+					moduleCache
+				});
 				this.Par.$.modules.append(elems);
-				let files = (await this.ascend('GetFiles', {Module: module}, this.Par.Broker)).Files
-				for(let filename of files) {
-					let fileItem = await this.partial('file', {fileName: filename, module: module});
-					elems.find('.fileList').append(fileItem);
-				}
+				// let files = (await this.ascend('GetFiles', {Module: moduleName}, this.Par.Broker)).Files
+				// for(let filename of files) {
+				// 	let fileItem = await this.partial('file', {fileName: filename, module: moduleName});
+				// 	elems.find('.fileList').append(fileItem);
+				// }
 			}
+			fun(null, com);
+		}
+
+		async SelectModule(com, fun) {
+			let li = $(com.Element);
+			let moduleName = li.attr('moduleType');
+			let moduleCache = li.attr('moduleCache');
+			let files = [];
+
+			try {
+				let filesRequest = this.ascend('GetFiles', {
+					Module: moduleName
+				}, moduleCache);
+				files = (await filesRequest).Files;
+			} catch([err, cmd]) {
+				log.w(err);
+				return fun(err, com);
+			}
+
+			// this listing should be recursive when we need it, but whatever.
+			for(let file in files) {
+				let fileElems = await this.partial('file', {
+					moduleCache,
+					moduleName,
+					file,
+					depth: 2
+				});
+				fileElems.insertAfter(li);
+			}
+
 			fun(null, com);
 		}
 

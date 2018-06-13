@@ -8,13 +8,15 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Evo",
-			"program": "${workspaceFolder}\\..\\xGraph\\src\\xgraph.js",
+			"program": "${env:APPDATA}\\npm\\node_modules\\xgraph\\src\\xgraph.js",
 			"args": [
 				"reset",
 				"--CWD", "views",
 				"--cache", "./evo",
-				"--local", "./modules"
+				"--local", "./modules",
+				"--devcore", "./../Modules/xGraph"
 			],
+			"protocol": "inspector",
 			"console": "integratedTerminal",
 			"cwd": "${workspaceFolder}"
 		},
