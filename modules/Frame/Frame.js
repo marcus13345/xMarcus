@@ -72,6 +72,14 @@
 			this.ascend('RestartSystem', {}, this.Par.System);
 			fun(null, com);
 		}
+
+		async Undo(com, fun) {
+			this.send(com, this.Par.ActionStack, fun)
+		}
+
+		async Redo(com, fun) {
+			this.send(com, this.Par.ActionStack, fun)
+		}
 	}
 
 	return Viewify(Frame, "4.0");

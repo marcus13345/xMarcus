@@ -25,6 +25,11 @@
 			fun(null, com);
 		}
 
+		Delete(com, fun) {
+			fun(null, com);
+			// TODO make this actually delete
+		}
+
 		GetModules(com, fun) {
 			this.send({
 				Cmd: 'Query',

@@ -12,6 +12,7 @@
 			"Module": "Frame",
 			"Source": "Local",
 			"Par": {
+				"ActionStack": "$ActionStack",
 				"Root": true,
 				"Children": [
 					{
@@ -25,15 +26,16 @@
 				"System": "$System"
 			}
 		},
+		"ActionStack": {
+			"Module": "ActionStack",
+			"Source": "Local",
+			"Par": {}
+		},
 		"SystemOfSystems": {
 			"Module": "SystemOfSystems",
 			"Source": "Local",
 			"Par": {
 				"Sources": {
-					"Core": {
-						"Host": "modulebroker.xgraphdev.com",
-						"Port": 27002
-					}
 				},
 				"Systems": {
 					"Evo HTTP Server": "$System"
@@ -53,7 +55,8 @@
 			"Source": "Local",
 			"Par": {
 				"Editor": "$Monaco",
-				"SystemOfSystems": "$SystemOfSystems"
+				"SystemOfSystems": "$SystemOfSystems",
+				"ActionStack": "$ActionStack"
 			}
 		},
 		"Monaco": {

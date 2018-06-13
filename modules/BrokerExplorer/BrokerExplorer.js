@@ -3,7 +3,7 @@
 	class BrokerExplorer {
 		async DOMLoaded(com, fun) {
 			// debugger;
-			this.Par.Brokers = this.Par.Brokers || [];
+			this.Par.Brokers = this.Par.Brokers || {};
 
 			this.Vlt.div.on('click', '.root', function() {
 				let content = $(this).nextUntil('.root');
@@ -39,6 +39,43 @@
 			fun(null, com);
 		}
 
+		async RemoveBroker(com, fun) {
+
+			let name = com.Name;
+			
+			if(!(name in this.Par.Brokers))
+				return fun(new Error('ERR_BROKER_NOT_FOUND'), com);
+
+			let host = this.Par.Brokers[name].Host;
+			let port = this.Par.Brokers[name].Port;
+			let moduleCachePid = this.Par.Brokers[name].Pid;
+
+			this.ascend('Delete', {}, moduleCachePid);
+
+			this.Par.Brokers[name] = undefined;
+
+			let deleteElems = this.Vlt.div.find(`*[modulecache=${moduleCachePid}]`);
+			deleteElems.remove();
+
+			// add this action to the action stack for undoability
+			// so long as this action didnt come from the action stack
+			// for the purpose of undoing.
+			if(!com.SkipHistory) {
+				this.ascend('AddAction', {
+					Undo: {
+						Cmd: 'RemoveBroker',
+						Name: name
+					},
+					Redo: com,
+					To: this.Par.Pid,
+					Description: `Add Broker ${host}:${port}`
+				}, this.Par.ActionStack);
+			}
+
+
+			fun(null, com);
+		}
+
 		async AddBroker(com, fun) {
 
 			let host = com.Host;
@@ -55,7 +92,7 @@
 			});
 
 			// keep a reference to all the broker caches we have.
-			this.Par.Brokers.push({
+			this.Par.Brokers[name] = ({
 				Name: name,
 				Host: host,
 				Port: port,
@@ -64,10 +101,32 @@
 
 			// render the root for this broker
 			let brokerRootElems = await this.partial('broker', {
-				host, port, name
+				host, port, name, moduleCache
 			});
 			this.Par.$.modules.append(brokerRootElems);
 
+			// add this action to the action stack for undoability
+			// so long as this action didnt come from the action stack
+			// for the purpose of undoing.
+			if(!com.SkipHistory) {
+				this.ascend('AddAction', {
+					Undo: {
+						Cmd: 'RemoveBroker',
+						Name: name
+					},
+					Redo: com,
+					To: this.Par.Pid,
+					Description: `Add Broker ${host}:${port}`
+				}, this.Par.ActionStack);
+			}
+
+			// at this point, were done with the command, but
+			// well keep this thread going for a minute so we can try to
+			// populate the broker
+			fun(null, com);
+
+
+			//populate modules list
 			// get modules from the cache (will trigger its first query)
 			let modules = this.ascend('GetModules', {}, moduleCache);
 			try{
@@ -92,6 +151,21 @@
 				// 	elems.find('.fileList').append(fileItem);
 				// }
 			}
+
+
+		}
+
+		async AddBrokerPrompt(com, fun) {
+			let host = prompt('Enter Host (ex, modulebroker.xgraphdev.com)', 'modulebroker.xgraphdev.com');
+			let port = prompt('Enter Port (ex, 27000)', '27000');
+			let name = prompt('Enter a name for the Broker (ex, Core)', 'Core');
+
+			this.ascend('AddBroker', {
+				Host: host,
+				Port: port,
+				Name: name
+			});
+
 			fun(null, com);
 		}
 

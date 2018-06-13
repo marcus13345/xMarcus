@@ -1,0 +1,8 @@
+{
+	"Apex": {
+		"Entity": "ActionStack.js",
+		"BackStack": [],
+		"ForwardStack": [],
+		"MaxHeight": 100
+	}
+}
