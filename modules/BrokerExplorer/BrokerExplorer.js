@@ -1,22 +1,38 @@
 //# sourceURL=BrokerExplorer
 (function BrokerExplorer() {
 	class BrokerExplorer {
+		async ItemToggle(com, fun) {
+
+			let a = $(com.Element);
+			let depth = a.attr('depth')
+			let within = a.nextUntil(`[depth=${depth}]`);//.filter(`[depth=${parseInt(depth)+1}]`);
+			if(a.attr('open') === undefined) {
+				a.attr('open', '');
+				within.attr('hidden', null);
+			} else {
+				a.attr('open', null);
+				within.attr('hidden', '');
+			}
+				
+			fun(null, com);
+		}
+		
 		async DOMLoaded(com, fun) {
 			// debugger;
 			this.Par.Brokers = this.Par.Brokers || {};
 
-			this.Vlt.div.on('click', '.root', function() {
-				let content = $(this).nextUntil('.root');
-				if($(this).attr('open') != null) {
-					// hide everything
-					$(this).attr('open', null);
-					content.attr('hidden', true);
-				}else {
-					// show everything
-					$(this).attr('open', true);
-					content.attr('hidden', null);
-				}
-			});
+			// this.Vlt.div.on('click', '.root', function() {
+			// 	let content = $(this).nextUntil('.root');
+			// 	if($(this).attr('open') != null) {
+			// 		// hide everything
+			// 		$(this).attr('open', null);
+			// 		content.attr('hidden', true);
+			// 	}else {
+			// 		// show everything
+			// 		$(this).attr('open', true);
+			// 		content.attr('hidden', null);
+			// 	}
+			// });
 
 			//ask system of systems about the sources, then genmod
 			try {
@@ -119,19 +135,26 @@
 					Description: `Add Broker ${host}:${port}`
 				}, this.Par.ActionStack);
 			}
+			try {
+				this.ascend('PopulateBroker', {
+					ModuleCache: moduleCache
+				})
+			} catch (e) {
 
-			// at this point, were done with the command, but
-			// well keep this thread going for a minute so we can try to
-			// populate the broker
+			}
+
 			fun(null, com);
+		}
 
+		async PopulateBroker(com, fun) {
+			let moduleCache = com.ModuleCache;
 
 			//populate modules list
 			// get modules from the cache (will trigger its first query)
 			let modules = this.ascend('GetModules', {}, moduleCache);
-			try{
+			try {
 				modules = await modules;
-			}catch([err, cmd]) {
+			} catch([err, cmd]) {
 				modules = {Modules: []};
 				log.w(err);
 				log.w('loading empty array of modules instead');
@@ -145,19 +168,28 @@
 					moduleCache
 				});
 				this.Par.$.modules.append(elems);
-				// let files = (await this.ascend('GetFiles', {Module: moduleName}, this.Par.Broker)).Files
-				// for(let filename of files) {
-				// 	let fileItem = await this.partial('file', {fileName: filename, module: moduleName});
-				// 	elems.find('.fileList').append(fileItem);
-				// }
+
+				setTimeout(async () => {
+					let files = (await this.ascend('GetFiles', {Module: moduleName}, com.ModuleCache)).Files;
+					for(let filename in files) {
+						let fileItem = await this.partial('file', {
+							file: filename,
+							moduleName: moduleName,
+							moduleCache: moduleCache,
+							depth: 2
+						});
+						fileItem.insertAfter(elems)
+					}
+				}, 100);
+
 			}
 
-
+			fun(null, com);
 		}
 
 		async AddBrokerPrompt(com, fun) {
 			let host = prompt('Enter Host (ex, modulebroker.xgraphdev.com)', 'modulebroker.xgraphdev.com');
-			let port = prompt('Enter Port (ex, 27000)', '27000');
+			let port = prompt('Enter Port (ex, 27000)', '27002');
 			let name = prompt('Enter a name for the Broker (ex, Core)', 'Core');
 
 			this.ascend('AddBroker', {

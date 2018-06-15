@@ -1,0 +1,81 @@
+[container] {
+  height: 100%;
+  --tab-height: 40px;
+  background: var(--view-color);
+}
+[tabs] {
+  height: var(--tab-height);
+  white-space: nowrap;
+  overflow: hidden;
+  background: var(--navbar-color);
+}
+[tab] {
+  color: var(--subtext);
+  display: inline-block;
+  min-width: 100px;
+  line-height: var(--tab-height);
+  padding-left: 22px;
+  padding-right: 30px;
+  position:relative;
+  cursor: pointer;
+}
+[tab][selected] {
+  background: var(--view-color);
+  color: var(--text);
+}
+[tab]::before {
+  content: '•';
+  position: relative;
+  right: 12px;
+  width: 0px;
+  display: inline-block;
+}
+[tab]:hover [close] {
+  font-size:24px;
+  position: absolute;
+  right: 20px;
+  width: 0px;
+  display: inline-block;
+}
+[tab] > [close] {
+  display: none;
+  cursor: pointer;
+}
+[tab] > [close]:active {
+  transform: scale(1.15);
+  transform-origin: 8px 19px;
+}
+[content] {
+  color: var(--text);
+  display: block;
+  height: calc(100% - var(--tab-height));
+  position: relative;
+}
+[tabs]::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+[tabs]:hover {
+  overflow-x: auto;
+}
+[tabs]::-webkit-scrollbar-track {
+  background:var(--hover-color); 
+}
+[tabs]::-webkit-scrollbar-thumb {
+  background: var(--hover-color); 
+}
+[tabs]::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color); 
+}
+[viewport] {
+  display:none;
+  height: 100%;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+}
+[viewport][selected] {
+  display:block;
+}
+
+

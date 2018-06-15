@@ -98,10 +98,12 @@
 	display: inline-block;
 	position: relative;
 	right: 23px;
+	transition: transform 200ms;
+	transform-origin: 11px 11px;
 }
 
 .item[folder][open]::before {
-	content: 'arrow_drop_down'
+	transform: rotate(90deg);
 }
 
 .click-responsive:active {

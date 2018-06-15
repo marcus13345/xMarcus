@@ -19,7 +19,7 @@
 						"View": "$Panel",
 						"Children": [
 							"$Explorer",
-							"$Monaco"
+							"$TabView"
 						]
 					}
 				],
@@ -54,13 +54,13 @@
 			"Module": "BrokerExplorer",
 			"Source": "Local",
 			"Par": {
-				"Editor": "$Monaco",
+				"Editor": "$TabView",
 				"SystemOfSystems": "$SystemOfSystems",
 				"ActionStack": "$ActionStack"
 			}
 		},
-		"Monaco": {
-			"Module": "Monaco",
+		"TabView": {
+			"Module": "TabView",
 			"Source": "Local",
 			"Par": {
 				"Text": "Default Text",

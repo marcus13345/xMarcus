@@ -50,11 +50,15 @@
 			});
 		}
 
-		GetFiles(com, fun) {
-			com.Files = {
-				"schema.json": true
-			};
-			fun(null, com);
+		async GetFiles(com, fun) {
+			this.send({
+				Cmd: 'GetModule',
+				Name: com.Module
+			}, this.Par.Broker, async (err, cmd) => {
+				let zip = await JSZip.loadAsync(cmd.Module, {base64: true});
+				com.Files = zip.files;
+				fun(null, com);
+			});
 		}
 	}
 	return {dispatch:ModuleCache.prototype}

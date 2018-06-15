@@ -1,6 +1,6 @@
 {
 	"Apex": {
-		"Entity": "Test.js",
+		"Entity": "TabView.js",
 		"$Setup": "Setup",
 		"$Start": "Start"
 	}
