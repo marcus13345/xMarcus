@@ -56,7 +56,8 @@
 			"Par": {
 				"Editor": "$TabView",
 				"SystemOfSystems": "$SystemOfSystems",
-				"ActionStack": "$ActionStack"
+				"ActionStack": "$ActionStack",
+				"TabView": "$TabView"
 			}
 		},
 		"TabView": {
@@ -82,6 +83,10 @@
 			},
 			{
 				"Module": "WebSocketClientProxy",
+				"Source": "Local"
+			},
+			{
+				"Module": "Monaco",
 				"Source": "Local"
 			}
 		]

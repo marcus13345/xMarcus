@@ -60,6 +60,18 @@
 				fun(null, com);
 			});
 		}
+
+		async GetFile(com, fun) {
+			this.send({
+				Cmd: 'GetModule',
+				Name: com.Module
+			}, this.Par.Broker, async (err, cmd) => {
+				let zip = await JSZip.loadAsync(cmd.Module, {base64: true});
+				let contents = await zip.file(com.Filename).async('string');
+				com.Contents = contents;
+				fun(null, com);
+			});
+		}
 	}
 	return {dispatch:ModuleCache.prototype}
 })();

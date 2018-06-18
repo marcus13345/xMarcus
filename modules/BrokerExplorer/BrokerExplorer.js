@@ -2,19 +2,51 @@
 (function BrokerExplorer() {
 	class BrokerExplorer {
 		async ItemToggle(com, fun) {
-
+			// debugger;
 			let a = $(com.Element);
-			let depth = a.attr('depth')
-			let within = a.nextUntil(`[depth=${depth}]`);//.filter(`[depth=${parseInt(depth)+1}]`);
-			if(a.attr('open') === undefined) {
-				a.attr('open', '');
-				within.attr('hidden', null);
+
+			if(a.attr('folder') === '') {
+				let depth = a.attr('depth')
+				let within = a.nextUntil(`[depth=${depth}]`);//.filter(`[depth=${parseInt(depth)+1}]`);
+				if(a.attr('open') === undefined) {
+					a.attr('open', '');
+					within.attr('hidden', null);
+				} else {
+					a.attr('open', null);
+					within.attr('hidden', '');
+				}
+					
+				fun(null, com);
 			} else {
-				a.attr('open', null);
-				within.attr('hidden', '');
+				// OPEN THE THINGY
+
+				// GET THE CONTENTS
+				// PLEASE FUTURE MARCUS, USE AN ADAPTER MODULE HERE TO TELL ABOUT
+				// STUFF, AND LINK THE TAB BACK TO. THANK YOU HAVE GOOD DAY
+				let filename = a.html()
+				let contents = (await this.ascend('GetFile', {
+					Module: a.attr('moduleType'),
+					Filename: filename
+				}, a.attr('moduleCache'))).Contents;
+
+				// debugger;
+
+				// CREATE THE THING, BUT IT WONT RENDER.
+				// SHOULD POROBABLY DO PAR INJHECTION IN VIEW.HTML
+				let monaco = await this.genModuleAsync({
+					Module: 'Monaco',
+					Par: {
+						Contents: contents
+					}
+				});
+
+				await this.ascend('AddTab', {
+					Title: filename,
+					View: monaco
+				}, this.Par.TabView);
 			}
-				
-			fun(null, com);
+
+			
 		}
 		
 		async DOMLoaded(com, fun) {
@@ -197,36 +229,6 @@
 				Port: port,
 				Name: name
 			});
-
-			fun(null, com);
-		}
-
-		async SelectModule(com, fun) {
-			let li = $(com.Element);
-			let moduleName = li.attr('moduleType');
-			let moduleCache = li.attr('moduleCache');
-			let files = [];
-
-			try {
-				let filesRequest = this.ascend('GetFiles', {
-					Module: moduleName
-				}, moduleCache);
-				files = (await filesRequest).Files;
-			} catch([err, cmd]) {
-				log.w(err);
-				return fun(err, com);
-			}
-
-			// this listing should be recursive when we need it, but whatever.
-			for(let file in files) {
-				let fileElems = await this.partial('file', {
-					moduleCache,
-					moduleName,
-					file,
-					depth: 2
-				});
-				fileElems.insertAfter(li);
-			}
 
 			fun(null, com);
 		}
