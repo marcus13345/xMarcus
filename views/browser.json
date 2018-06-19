@@ -2,10 +2,7 @@
 	"Sources": {
 		"Local": "{local}",
 		"DevCore": "{devcore}",
-		"Core": {
-			"Host": "modulebroker.xgraphdev.com",
-			"Port": 27000
-		}
+		"Core": "mb://modulebroker.xgraphdev.com"
 	},
 	"Modules": {
 		"Frame": {
