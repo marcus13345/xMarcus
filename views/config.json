@@ -1,7 +1,6 @@
 {
 	"Sources": {
 		"Core": "mb://modulebroker.xgraphdev.com",
-		"DevCore": "{devcore}",
 		"Local": "{local}"
 	},
 	"Modules": {
