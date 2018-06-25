@@ -7,12 +7,13 @@
 	background: var(--view-color);
 	color: var(--text);
 	font-size: 13px;
+	min-width: 300px;
 	-webkit-touch-callout: none; /* iOS Safari */
-		-webkit-user-select: none; /* Safari */
-		 -khtml-user-select: none; /* Konqueror HTML */
-			 -moz-user-select: none; /* Firefox */
-				-ms-user-select: none; /* Internet Explorer/Edge */
-						user-select: none; /* Non-prefixed version Chronme/Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version Chronme/Opera */
 }
 
 .title {
@@ -108,4 +109,26 @@
 
 .click-responsive:active {
 	transform: scale(1.15);
+}
+
+.scroller {
+	height: calc(100% - 35px);
+	overflow: hidden;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+.scroller:hover {
+  overflow: auto;
+}
+.scroller::-webkit-scrollbar-track {
+  background:rgba(0,0,0,0); 
+}
+.scroller::-webkit-scrollbar-thumb {
+  background: var(--hover-color); 
+}
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color); 
 }

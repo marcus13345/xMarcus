@@ -6,8 +6,9 @@
 	},
 	"Modules": {
 		"Server": {
-			"Module": "WebViewer",
-			"Source": "DevCore",
+			"Module": "xGraph.WebViewer",
+			"Version": "1.3.0",
+			"Source": "Core",
 			"Par": {
 				"ApexList": {
 				},

@@ -40,8 +40,9 @@
 			}
 		},
 		"Panel": {
-			"Module": "PanelView",
-			"Source": "DevCore",
+			"Module": "xGraph.PanelView",
+			"Version": "1.3.0",
+			"Source": "Core",
 			"Par": {
 				"Ratio": 0.17,
 				"Horizontal": true

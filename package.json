@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
 
 
-    "evo": "xgraph r --CWD views --cache ./evo --Core ./../Modules --local ./modules",
+    "evo": "xgraph r --CWD views --cache ./evo --Core ./../Modules --local ./modules --loglevel debug",
 
     "broker": "xgraph r --CWD localbroker --cache ./evo --Core ./../Modules --local ./modules",
 

@@ -14,7 +14,8 @@
 				"--CWD", "views",
 				"--cache", "./evo",
 				"--local", "./modules",
-				"--devcore", "./../Modules/xGraph"
+				"--devcore", "./../Modules/xGraph",
+				"--logleveldebug"
 			],
 			"protocol": "inspector",
 			"console": "integratedTerminal",

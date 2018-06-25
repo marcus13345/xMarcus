@@ -59,7 +59,7 @@
   overflow-x: auto;
 }
 [tabs]::-webkit-scrollbar-track {
-  background:var(--hover-color); 
+  background:rgba(0,0,0,0);
 }
 [tabs]::-webkit-scrollbar-thumb {
   background: var(--hover-color); 
