@@ -1,16 +1,13 @@
 {
 	"Sources": {
-		"Core": {
-			"Host": "modulebroker.xgraphdev.com",
-			"Port": 27000
-		},
-		"DevCore": "{devcore}",
+		"Core": "mb://modulebroker.xgraphdev.com",
 		"Local": "{local}"
 	},
 	"Modules": {
 		"Server": {
-			"Module": "WebViewer",
-			"Source": "DevCore",
+			"Module": "xGraph.WebViewer",
+			"Version": "1.3.0",
+			"Source": "Core",
 			"Par": {
 				"ApexList": {
 				},
@@ -29,7 +26,7 @@
 			}
 		},
 		"SelfProxy": {
-			"Module": "WebsocketServerProxy",
+			"Module": "xGraph.WebsocketServerProxy",
 			"Source": "Core",
 			"Par": {
 				"Link": "$Self",
